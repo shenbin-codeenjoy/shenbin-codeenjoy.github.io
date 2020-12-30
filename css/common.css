@@ -1,0 +1,175 @@
+/* html {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  p,
+  input,
+  textarea,
+  pre > span {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png"), text;
+  }
+  a {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  a:not([href]) {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  a:not([href]) p {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  button,
+  html input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  button[disabled],
+  html input[disabled] {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  table::-webkit-scrollbar-thumb {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  scrollbar::-webkit-scrollbar-thumb {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  .article .widget {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  .cover-wrapper .cover .scroll-down {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  .l_body .post section.meta .new-meta-box .new-meta-item .notlink {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  ul.list-v.rightmenu a {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  #u-search .modal .modal-header .btn-close {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  #u-search .modal .modal-footer .nav {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  span.btn >a:not([href]):hover {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png"), not-allowed;
+  }
+  span.btn a:not([href]) {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  article .checkbox input {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  details summary {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  .article a.link-card {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  div.tabs ul.nav-tabs li.tab a {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  div.tabs ul.nav-tabs li.tab.active a {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  .btn-copy {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  .fancybox-container .fancybox-stage {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png"), zoom-out;
+  }
+  .fancybox a {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png"), zoom-in;
+  }
+  .l_main #comments #valine_container .vcards .vhead span.vnick {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+  }
+  .fancybox-can-zoomIn .fancybox-content {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png"), zoom-in;
+  }
+  .fancybox-can-pan .fancybox-content,
+  .fancybox-can-swipe .fancybox-content {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/openhand.png"), grab;
+  }
+  .waves-effect,
+  a.result.search-result-fix {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
+  }
+  kbd,
+  .a > p,
+  .not-select,
+  .not-select p,
+  .MiniValine *,
+  .aplayer .aplayer-info .aplayer-music {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default !important;
+  }
+  .tag > p,
+  .prev > p,
+  .next > p,
+  .author > p,
+  .list-h > a > p,
+  .category > a > p,
+  .v[data-class=v] a,
+  .v[data-class=v] .vbtn,
+  .v[data-class=v] .vicon,
+  .v[data-class=v] .vcards .vcard .vhead .vnick,
+  .v[data-class=v] .vcards .vcard .vh .vmeta .vat,
+  .v[data-class=v] .vwrap .vemojis i,
+  .v[data-class=v] .vcards .vcard .vcontent.expand,
+  .aplayer .aplayer-pic,
+  .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon,
+  .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap,
+  .aplayer .aplayer-list ol li,
+  .aplayer .aplayer-list ol li .aplayer-list-author,
+  .aplayer .aplayer-list ol li .aplayer-list-index,
+  .waves-button,
+  .waves-button-input,
+  .waves-button:hover,
+  .waves-button:visited,
+  .fancybox-button,
+  .MiniValine .vbtn,
+  .MiniValine .vcancel-comment-reply,
+  .MiniValine .vcancel-comment-reply svg,
+  .MiniValine .vlist .vcard .vcomment-body .vat,
+  .MiniValine .vlist .vcard .vcomment-body .vhead .vname,
+  .MiniValine .vinputs-area .btn-wrap .vfunction-btn svg,
+  .MiniValine .vinputs-area .vextra-area .vsmile-icons img,
+  .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment a {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer !important;
+  }
+  .fancybox-button[disabled],
+  .fancybox-button[disabled]:hover {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png"), not-allowed !important;
+  }
+  .fix-cursor-pointer {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer !important;
+  }
+  .fix-cursor-default {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default !important;
+  }
+  .gt-container a.is--active {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default !important;
+  }
+  .gt-container .gt-avatar-github {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer !important;
+  }
+  .gt-container .gt-btn {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer !important;
+  }
+  .gt-container .gt-btn.is--disable {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png"), not-allowed !important;
+  }
+  .gt-container .gt-user-inner {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer !important;
+  }
+  .gt-container .gt-popup .gt-action {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer !important;
+  }
+  .gt-container .gt-comment-like:hover,
+  .gt-container .gt-comment-edit:hover,
+  .gt-container .gt-comment-reply:hover {
+    cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer !important;
+  }
+   */

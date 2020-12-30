@@ -156,18 +156,4 @@
         <tag>Markdown</tag>
       </tags>
   </entry>
-  <entry>
-    <title>Spring 框架新篇章</title>
-    <url>/2021/spring-quick-start/</url>
-    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spring 是一个开源的轻量级 Java 开发框架</p>
-<h2 id="Spring-概述"><a href="#Spring-概述" class="headerlink" title="Spring 概述"></a>Spring 概述</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ioc</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DI</p>
-]]></content>
-      <categories>
-        <category>Spring</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
 </search>
