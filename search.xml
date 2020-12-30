@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown 语法新姿势</title>
+    <url>/2021/01/markdown-grammar-quick-start/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 是一种易读易写的纯文本「 标记语言 」。它通过简洁的语法将纯文本转换成 XHTML（ 或者 HTML ）文档，获得了很多写作爱好者、程序员的喜爱。</p>
+<h1 id="一、Markdown-特点"><a href="#一、Markdown-特点" class="headerlink" title="一、Markdown 特点"></a>一、Markdown 特点</h1><h2 id="1-1-优点"><a href="#1-1-优点" class="headerlink" title="1.1 优点"></a>1.1 优点</h2><ul>
+<li><p>具有一定的跨平台性<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在支持 Markdown 语法的平台中，同样的文字可以实现同样的效果。因此，基于 Markdown 编写文章的写作爱好者、程序员可以专心的撰写优质文章，而不用为文章排版等问题而困扰。</p>
+</li>
+<li><p>支持图片插入、超链接、锚点<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于 Markdown 语法的最终呈现方式是 XHTML（ 或者 HTML ）文档，因此它支持图片、超链接、锚点等一系列功能。</p>
+</li>
+</ul>
+<h2 id="1-2-缺点"><a href="#1-2-缺点" class="headerlink" title="1.2 缺点"></a>1.2 缺点</h2><ul>
+<li>不是所有平台都支持 Markdown 语法<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 语法虽然目前获得了很多写作平台的支持，但是也有少部分平台暂时不支持 Markdown 语法。</li>
+</ul>
+<h1 id="二、Markdown-语法"><a href="#二、Markdown-语法" class="headerlink" title="二、Markdown 语法"></a>二、Markdown 语法</h1><h2 id="2-1-标题"><a href="#2-1-标题" class="headerlink" title="2.1 标题"></a>2.1 标题</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 标题支持两种格式进行编写。</p>
+<ul>
+<li>使用 <code>===</code> 和 <code>---</code> 标记一级和二级标题</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">===</span><br><span class="line"></span><br><span class="line">二级标题</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.1-1-title.png"></p>
+<ul>
+<li>使用 <code>#</code> 标记可以一级到六级标题，一个 <code>#</code> 表示一级标题，六个 <code>#</code> 表示六级标题，最多支持六级标题</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.1-2-title.png"></p>
+<h2 id="2-2-字体"><a href="#2-2-字体" class="headerlink" title="2.2 字体"></a>2.2 字体</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持粗体文本、斜体文本和粗斜体文本。</p>
+<ul>
+<li>使用一个 <code>*</code> 或一个 <code>_</code> 将文字包含起来可以形成斜体文本</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*倾斜的文本*</span></span><br><span class="line"><span class="emphasis">_倾斜的文本_</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>使用两个 <code>*</code> 或两个 <code>_</code> 将文字包含起来可以形成粗体文本</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**加粗的文本**</span></span><br><span class="line"><span class="strong">__加粗的文本__</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>使用三个 <code>*</code> 或三个 <code>_</code> 将文字包含起来可以形成粗斜体文本 ( 倾斜并且加粗的文本 )</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*倾斜并且加粗的文本<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">__<span class="emphasis">_倾斜并且加粗的文本<span class="strong">__<span class="emphasis">_</span></span></span></span></span></span></span></span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-3-分隔线"><a href="#2-3-分隔线" class="headerlink" title="2.3 分隔线"></a>2.3 分隔线</h2><ul>
+<li>在一行中可以使用三个及以上的 <code>-</code> 或 <code>*</code> 或 <code>_</code> 建立一个分隔线</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong">__<span class="emphasis">_</span></span></span></span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-4-删除线"><a href="#2-4-删除线" class="headerlink" title="2.4 删除线"></a>2.4 删除线</h2><ul>
+<li>使用两个 <code>~</code> 将文字包含起来可以将这些文字加上删除线</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~~删除线文字~~</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-5-区块引用"><a href="#2-5-区块引用" class="headerlink" title="2.5 区块引用"></a>2.5 区块引用</h2><ul>
+<li>在文字开头使用 <code>&gt;</code> 符号，并且后面添加一个空格符号即可实现区块引用。<ul>
+<li>区块引用可以进行嵌套操作，只需要使用多个 <code>&gt;</code> 符号加上空格符号即可，它也可以和列表之间进行相互嵌套。</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 区块引用</span></span><br><span class="line">&gt;&gt; 嵌套区块引用</span><br><span class="line">&gt;&gt;&gt; 区块引用中嵌套使用列表</span><br><span class="line">&gt;&gt;&gt; 1. 第一项</span><br><span class="line">&gt;&gt;&gt; 2. 第二项</span><br><span class="line">&gt;&gt;&gt;   + 第一项</span><br><span class="line">&gt;&gt;&gt;   + 第二项</span><br><span class="line">&gt;&gt;&gt;   + 第三项</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.5-%E5%8C%BA%E5%9D%97.png"></p>
+<h2 id="2-6-列表"><a href="#2-6-列表" class="headerlink" title="2.6 列表"></a>2.6 列表</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持有序列表和无序列表，列表和区块之间可以进行相互嵌套。</p>
+<ul>
+<li><p>有序列表使用数字并加上 <code>.</code> 号来表示</p>
+</li>
+<li><p>无序列表使用 <code>*</code> 、 <code>+</code> 或 <code>-</code> 作为标记，后面添加一个空格来表示。</p>
+</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">3.</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">*</span> 第一项</span><br><span class="line"><span class="bullet">   +</span> 第二项</span><br><span class="line"><span class="bullet">      -</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">   +</span> 第二项</span><br><span class="line"><span class="bullet">      *</span> 第三项</span><br><span class="line"><span class="bullet">         -</span> 第四项</span><br><span class="line"><span class="code">         &gt; 区块引用</span></span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.6-list-table.png"></p>
+<h2 id="2-7-待办事项"><a href="#2-7-待办事项" class="headerlink" title="2.7 待办事项"></a>2.7 待办事项</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持代办事项功能，可以使用 <code>*</code> 、 <code>+</code> 或 <code>-</code> 和方括号（ 方括号中必须有空格或者 x ）以及文本来表示，之间需要添加空格符号。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">*</span> [x] 第一项已代办事项</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> [ ] 第一项未待办事项</span><br><span class="line"></span><br><span class="line"><span class="bullet">+</span> [ ] 第三项未待办事项</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.7-%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9.png"></p>
+<h2 id="2-8-链接"><a href="#2-8-链接" class="headerlink" title="2.8 链接"></a>2.8 链接</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持链接功能，语法为</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址 &quot;链接标题&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">链接地址</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>链接标题可加可不加</p>
+</div>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">百度</span>](<span class="link">https://www.baidu.com/</span>)</span><br><span class="line"></span><br><span class="line">[<span class="string">百度</span>](<span class="link">https://www.baidu.com/ &quot;百度&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">https:</span>//<span class="attr">www.baidu.com</span>/&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.8-link.png"></p>
+<h2 id="2-9-图片"><a href="#2-9-图片" class="headerlink" title="2.9 图片"></a>2.9 图片</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持图片的插入功能，语法为</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 &quot;图片标题&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>图片标题可加可不加</p>
+</div>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">公众号</span>](<span class="link">https://codeenjoy-1300139518.cos.ap-shanghai.myqcloud.com/shenbin-codeenjoy-blog/social/gongzhonghao-logo.jpg</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">公众号</span>](<span class="link">https://codeenjoy-1300139518.cos.ap-shanghai.myqcloud.com/shenbin-codeenjoy-blog/social/gongzhonghao-logo.jpg &quot;公众号&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
+<p><img src="https://codeenjoy-1300139518.cos.ap-shanghai.myqcloud.com/shenbin-codeenjoy-blog/social/gongzhonghao-logo.jpg" alt="公众号"></p>
+<p><img src="https://codeenjoy-1300139518.cos.ap-shanghai.myqcloud.com/shenbin-codeenjoy-blog/social/gongzhonghao-logo.jpg" alt="公众号" title="公众号"></p>
+<h2 id="2-10-表格"><a href="#2-10-表格" class="headerlink" title="2.10 表格"></a>2.10 表格</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持表格的展示功能，语法为</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|   ---   |  ---  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>Markdown 表格可以设置文字的对齐方式：</p>
+<ol>
+<li><code>:-</code> 设置内容和标题栏左对齐</li>
+<li><code>:-:</code> 设置内容和标题栏居中对齐</li>
+<li><code>-:</code> 设置内容和标题栏右对齐</li>
+</ol>
+</div>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 居中对齐 | 右对齐 |</span><br><span class="line">|  :-   |  :-:  |   -:   |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="center">居中对齐</th>
+<th align="right">右对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="center">单元格</td>
+<td align="right">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="center">单元格</td>
+<td align="right">单元格</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Grammer</category>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring 框架新篇章</title>
+    <url>/2021/spring-quick-start/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spring 是一个开源的轻量级 Java 开发框架</p>
+<h2 id="Spring-概述"><a href="#Spring-概述" class="headerlink" title="Spring 概述"></a>Spring 概述</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ioc</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DI</p>
+]]></content>
+      <categories>
+        <category>Spring</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+</search>
