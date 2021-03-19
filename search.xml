@@ -1,540 +1,207 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown 语法新姿势</title>
-    <url>/2021/01/markdown-grammar-quick-start/</url>
-    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 是一种易读易写的纯文本「 标记语言 」。它通过简洁的语法将纯文本转换成 XHTML（ 或者 HTML ）文档，获得了很多写作爱好者、程序员的喜爱。</p>
-<h1 id="一、Markdown-特点"><a href="#一、Markdown-特点" class="headerlink" title="一、Markdown 特点"></a>一、Markdown 特点</h1><h2 id="1-1-优点"><a href="#1-1-优点" class="headerlink" title="1.1 优点"></a>1.1 优点</h2><ul>
-<li><p>具有一定的跨平台性<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在支持 Markdown 语法的平台中，同样的文字可以实现同样的效果。因此，基于 Markdown 编写文章的写作爱好者、程序员可以专心的撰写优质文章，而不用为文章排版等问题而困扰。</p>
+    <title>教育观 （职业理念）</title>
+    <url>/2021/01/quality-oriented-education-211-education-concept/</url>
+    <content><![CDATA[<h1 id="要点"><a href="#要点" class="headerlink" title="要点"></a>要点</h1><ul>
+<li>理解国家实施素质教育的基本要求 （单选）</li>
+<li>掌握在学校教育中开展素质教育的途径和方法 （基本不考）</li>
+<li>依据国家实施素质教育的基本要求，分析和评判教育现象 （材料题）</li>
+</ul>
+<h1 id="核心"><a href="#核心" class="headerlink" title="核心"></a>核心</h1><h2 id="（一）素质教育的内涵"><a href="#（一）素质教育的内涵" class="headerlink" title="（一）素质教育的内涵"></a>（一）素质教育的内涵</h2><ol>
+<li>素质教育以 <strong>提高国民素质</strong> 为根本宗旨<ul>
+<li>是一个综合性概念，更加重视德育</li>
+<li>面向全体公民</li>
+</ul>
 </li>
-<li><p>支持图片插入、超链接、锚点<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于 Markdown 语法的最终呈现方式是 XHTML（ 或者 HTML ）文档，因此它支持图片、超链接、锚点等一系列功能。</p>
+<li>素质教育是面向全体学生的教育。素质教育强调每个人都得到发展，而不是部分人的发展，更不是少数人的发展。<ul>
+<li>材料题中：老师有没有做到一视同仁，不偏爱、不区别对待</li>
+</ul>
 </li>
+<li>素质教育是促进学生全面发展的教育。实施素质教育需要把德育、智育、体育、美育、劳育等有机的整合到教育教学过程中，使学生能够德智体美劳全方面发展。<ul>
+<li>材料题中：老师不仅重视学生成绩 / 某一方面，而且关注学生其他内容（道德、心理、实践）</li>
 </ul>
-<h2 id="1-2-缺点"><a href="#1-2-缺点" class="headerlink" title="1.2 缺点"></a>1.2 缺点</h2><ul>
-<li>不是所有平台都支持 Markdown 语法<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 语法虽然目前获得了很多写作平台的支持，但是也有少部分平台暂时不支持 Markdown 语法。</li>
+</li>
+<li>素质教育是促进学生个性发展的教育。每个学生都有独特性，不同的性格特征，不同的价值观念铸造了个性迥异的学生。因此，素质教育要充分考虑到学生的个性差异，因材施教。<ul>
+<li>特点：活泼好动、沉默寡言</li>
+<li>特长：闪光点</li>
+<li>因材施教</li>
+<li>在全面发展的基础上发展个性</li>
 </ul>
-<h1 id="二、Markdown-语法"><a href="#二、Markdown-语法" class="headerlink" title="二、Markdown 语法"></a>二、Markdown 语法</h1><h2 id="2-1-标题"><a href="#2-1-标题" class="headerlink" title="2.1 标题"></a>2.1 标题</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 标题支持两种格式进行编写。</p>
-<ul>
-<li>使用 <code>===</code> 和 <code>---</code> 标记一级和二级标题</li>
+</li>
+<li>素质教育是以培养创新精神和实践能力为重点的教育。实施素质教育要全方面调动学生的主动性和积极性，增强学生的学习兴趣，开设丰富多彩的活动，培养学生的动手能力。<ul>
+<li>创新精神<ul>
+<li>新想法</li>
+<li>新点子</li>
 </ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">===</span><br><span class="line"></span><br><span class="line">二级标题</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.1-1-title.png"></p>
-<ul>
-<li>使用 <code>#</code> 标记可以一级到六级标题，一个 <code>#</code> 表示一级标题，六个 <code>#</code> 表示六级标题，最多支持六级标题</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.1-2-title.png"></p>
-<h2 id="2-2-字体"><a href="#2-2-字体" class="headerlink" title="2.2 字体"></a>2.2 字体</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持粗体文本、斜体文本和粗斜体文本。</p>
-<ul>
-<li>使用一个 <code>*</code> 或一个 <code>_</code> 将文字包含起来可以形成斜体文本</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*倾斜的文本*</span></span><br><span class="line"><span class="emphasis">_倾斜的文本_</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>使用两个 <code>*</code> 或两个 <code>_</code> 将文字包含起来可以形成粗体文本</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**加粗的文本**</span></span><br><span class="line"><span class="strong">__加粗的文本__</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>使用三个 <code>*</code> 或三个 <code>_</code> 将文字包含起来可以形成粗斜体文本 ( 倾斜并且加粗的文本 )</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*倾斜并且加粗的文本<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">__<span class="emphasis">_倾斜并且加粗的文本<span class="strong">__<span class="emphasis">_</span></span></span></span></span></span></span></span></span><br></pre></td></tr></table></figure>
-
-<h2 id="2-3-分隔线"><a href="#2-3-分隔线" class="headerlink" title="2.3 分隔线"></a>2.3 分隔线</h2><ul>
-<li>在一行中可以使用三个及以上的 <code>-</code> 或 <code>*</code> 或 <code>_</code> 建立一个分隔线</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong">__<span class="emphasis">_</span></span></span></span></span><br></pre></td></tr></table></figure>
-
-<h2 id="2-4-删除线"><a href="#2-4-删除线" class="headerlink" title="2.4 删除线"></a>2.4 删除线</h2><ul>
-<li>使用两个 <code>~</code> 将文字包含起来可以将这些文字加上删除线</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~~删除线文字~~</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-5-区块引用"><a href="#2-5-区块引用" class="headerlink" title="2.5 区块引用"></a>2.5 区块引用</h2><ul>
-<li>在文字开头使用 <code>&gt;</code> 符号，并且后面添加一个空格符号即可实现区块引用。<ul>
-<li>区块引用可以进行嵌套操作，只需要使用多个 <code>&gt;</code> 符号加上空格符号即可，它也可以和列表之间进行相互嵌套。</li>
+</li>
+<li>实践能力<ul>
+<li>动手做</li>
+<li>走出校园、社会实践</li>
 </ul>
 </li>
 </ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 区块引用</span></span><br><span class="line">&gt;&gt; 嵌套区块引用</span><br><span class="line">&gt;&gt;&gt; 区块引用中嵌套使用列表</span><br><span class="line">&gt;&gt;&gt; 1. 第一项</span><br><span class="line">&gt;&gt;&gt; 2. 第二项</span><br><span class="line">&gt;&gt;&gt;   + 第一项</span><br><span class="line">&gt;&gt;&gt;   + 第二项</span><br><span class="line">&gt;&gt;&gt;   + 第三项</span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.5-%E5%8C%BA%E5%9D%97.png"></p>
-<h2 id="2-6-列表"><a href="#2-6-列表" class="headerlink" title="2.6 列表"></a>2.6 列表</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持有序列表和无序列表，列表和区块之间可以进行相互嵌套。</p>
-<ul>
-<li><p>有序列表使用数字并加上 <code>.</code> 号来表示</p>
 </li>
-<li><p>无序列表使用 <code>*</code> 、 <code>+</code> 或 <code>-</code> 作为标记，后面添加一个空格来表示。</p>
-</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">3.</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">*</span> 第一项</span><br><span class="line"><span class="bullet">   +</span> 第二项</span><br><span class="line"><span class="bullet">      -</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">   +</span> 第二项</span><br><span class="line"><span class="bullet">      *</span> 第三项</span><br><span class="line"><span class="bullet">         -</span> 第四项</span><br><span class="line"><span class="code">         &gt; 区块引用</span></span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.6-list-table.png"></p>
-<h2 id="2-7-待办事项"><a href="#2-7-待办事项" class="headerlink" title="2.7 待办事项"></a>2.7 待办事项</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持代办事项功能，可以使用 <code>*</code> 、 <code>+</code> 或 <code>-</code> 和方括号（ 方括号中必须有空格或者 x ）以及文本来表示，之间需要添加空格符号。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">*</span> [x] 第一项已代办事项</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> [ ] 第一项未待办事项</span><br><span class="line"></span><br><span class="line"><span class="bullet">+</span> [ ] 第三项未待办事项</span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.7-%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9.png"></p>
-<h2 id="2-8-链接"><a href="#2-8-链接" class="headerlink" title="2.8 链接"></a>2.8 链接</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持链接功能，语法为</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址 &quot;链接标题&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">链接地址</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>链接标题可加可不加</p>
-</div>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">百度</span>](<span class="link">https://www.baidu.com/</span>)</span><br><span class="line"></span><br><span class="line">[<span class="string">百度</span>](<span class="link">https://www.baidu.com/ &quot;百度&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">https:</span>//<span class="attr">www.baidu.com</span>/&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shenbin-codeenjoy/shenbin-codeenjoy-folder/img/001-markdown-grammar-quick-start-2.8-link.png"></p>
-<h2 id="2-9-图片"><a href="#2-9-图片" class="headerlink" title="2.9 图片"></a>2.9 图片</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持图片的插入功能，语法为</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 &quot;图片标题&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>图片标题可加可不加</p>
-</div>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">公众号</span>](<span class="link">https://codeenjoy-1300139518.cos.ap-shanghai.myqcloud.com/shenbin-codeenjoy-blog/social/gongzhonghao-logo.jpg</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">公众号</span>](<span class="link">https://codeenjoy-1300139518.cos.ap-shanghai.myqcloud.com/shenbin-codeenjoy-blog/social/gongzhonghao-logo.jpg &quot;公众号&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
-<p><img src="https://codeenjoy-1300139518.cos.ap-shanghai.myqcloud.com/shenbin-codeenjoy-blog/social/gongzhonghao-logo.jpg" alt="公众号"></p>
-<p><img src="https://codeenjoy-1300139518.cos.ap-shanghai.myqcloud.com/shenbin-codeenjoy-blog/social/gongzhonghao-logo.jpg" alt="公众号" title="公众号"></p>
-<h2 id="2-10-表格"><a href="#2-10-表格" class="headerlink" title="2.10 表格"></a>2.10 表格</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown 支持表格的展示功能，语法为</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|   ---   |  ---  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
-
-<div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>Markdown 表格可以设置文字的对齐方式：</p>
-<ol>
-<li><code>:-</code> 设置内容和标题栏左对齐</li>
-<li><code>:-:</code> 设置内容和标题栏居中对齐</li>
-<li><code>-:</code> 设置内容和标题栏右对齐</li>
 </ol>
+<h1 id="一、国家实施素质教育的基本要求和内涵"><a href="#一、国家实施素质教育的基本要求和内涵" class="headerlink" title="一、国家实施素质教育的基本要求和内涵"></a>一、国家实施素质教育的基本要求和内涵</h1><h2 id="1-1-教育观"><a href="#1-1-教育观" class="headerlink" title="1.1 教育观"></a>1.1 教育观</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教育观简单来说就是。不同人对教育有着不同的观点。</p>
+<h2 id="1-2-素质教育"><a href="#1-2-素质教育" class="headerlink" title="1.2 素质教育"></a>1.2 素质教育</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1993 年 <strong>《中国教育改革和发展纲要》</strong> ：中小学要由“应试教育”转向全面 <strong>提高国民素质</strong> 的轨道</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1997 年党的十五大报告：认真贯彻党的教育方针， <strong>重视受教育者素质的提高</strong> ，培养德智体美劳全面发展的社会主义事业的建设者和接班人</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1999 年《中共中央国务院关于深化教育改革全面推进素质教育的决定》：实施素质教育，就是全面贯彻党的教育方针， <strong>以提高国民素质为根本宗旨，以培养学生的创新精神和实践能力为重点</strong> ，造就“有理想、有道德、有文化、有纪律”的、德智体美等全面发展的社会主义接班人 （素质教育的根本宗旨是什么，素质教育的重点是什么）</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2006 年 6 月修订《中华人民共和国义务教育法》，规定“义务教育必须贯彻国家的教育方针，实施素质教育”，表明 <strong>素质教育上升为国家意志</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2010 年 7 月 29 日，颁布《国家中长期教育改革和发展规划纲要（2010 - 2020 年）》，指出“ <strong>坚持以人为本、全面实施素质教育</strong> 是教育改革发展的 <strong>战略主题</strong> ，是贯彻党的教育方针的时代要求” （战略主题是什么）</p>
+<h2 id="1-3-素质教育的基本内涵-（背，材料题采分点）"><a href="#1-3-素质教育的基本内涵-（背，材料题采分点）" class="headerlink" title="1.3 素质教育的基本内涵 （背，材料题采分点）"></a>1.3 素质教育的基本内涵 （背，材料题采分点）</h2><ul>
+<li><p>素质教育是 <strong>面向全体学生</strong> 的教育，有两层含义</p>
+<ol>
+<li>人人都有接受教育权利，不管男孩女孩、家庭背景等，每个人都有接受教育的权利</li>
+<li>每个人都得到发展，在实际教育教学过程中，老师要面向全体学生，促进学生全面发展</li>
+<li>材料题举例：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如说班级里面有个小孩子性格比较孤僻，班主任老师发现后，通过各种活动帮助小孩子融入到班级活动中，最后帮助孩子改掉性格中的缺陷，体现了素质教育是面向全体学生的教育，老师的做法面向所有学生，没有忽视班级里的任何一个孩子</li>
+</ol>
+</li>
+<li><p>素质教育是 <strong>全面发展</strong> 的教育</p>
+<ol>
+<li>是否等于平均？   素质教育 <strong>不是</strong> 平均发展的教育</li>
+<li>是否等于专业？   素质教育 <strong>不是</strong> 专业发展的教育</li>
+<li>是否等于均衡？   素质教育 <strong>约等于</strong> 均衡发展的教育，目前说道均衡一般是教育资源分配的是否均衡 — 义务教育阶段</li>
+<li>是否等于特长？   素质教育 <strong>不是</strong> 特长发展的教育</li>
+<li>考点：单选 — 常考的点是班主任把综合实践课改成数学课，老师没有做到学生的全面发展</li>
+</ol>
+</li>
+<li><p>素质教育是 <strong>促进学生个性发展</strong> 的教育</p>
+</li>
+<li><p>素质教育是 <strong>以培养创新精神和实践能力</strong> 为重点的教育</p>
+<ol>
+<li>课堂：</li>
+<li>课外：</li>
+</ol>
+</li>
+</ul>
+<h2 id="1-4-素质教育的基本要求-（背，材料题采分点）"><a href="#1-4-素质教育的基本要求-（背，材料题采分点）" class="headerlink" title="1.4 素质教育的基本要求 （背，材料题采分点）"></a>1.4 素质教育的基本要求 （背，材料题采分点）</h2><ul>
+<li>全体性</li>
+<li>全面性</li>
+<li>基础性 （教育内容）</li>
+<li>价值多元化 （评价多样性）</li>
+<li>开放性</li>
+<li>着眼于学生的终身可持续发展 （学会 -&gt; 会学）</li>
+<li>培养学生的主体意识，注重学生个性健康发展</li>
+<li>重视学生创新精神和实践能力的培养</li>
+</ul>
+<div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>口诀：一化四性二发展，创新实践是核心</p>
 </div>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 居中对齐 | 右对齐 |</span><br><span class="line">|  :-   |  :-:  |   -:   |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示效果如下：</p>
-<table>
-<thead>
-<tr>
-<th align="left">左对齐</th>
-<th align="center">居中对齐</th>
-<th align="right">右对齐</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">单元格</td>
-<td align="center">单元格</td>
-<td align="right">单元格</td>
-</tr>
-<tr>
-<td align="left">单元格</td>
-<td align="center">单元格</td>
-<td align="right">单元格</td>
-</tr>
-</tbody></table>
-]]></content>
+<h2 id="1-5-素质教育和应试教育的区别-（了解）"><a href="#1-5-素质教育和应试教育的区别-（了解）" class="headerlink" title="1.5 素质教育和应试教育的区别 （了解）"></a>1.5 素质教育和应试教育的区别 （了解）</h2><ul>
+<li>指导思想<ul>
+<li>素质教育为了 <strong>全面提高学生的素质</strong></li>
+<li>应试教育是以 <strong>追求升学率</strong> 为目的</li>
+</ul>
+</li>
+<li>教育目的<ul>
+<li>素质教育是根据社会进步和人的发展需要</li>
+<li>应试教育是为了 <strong>适应</strong> 上一级学校的 <strong>选择</strong> 需要</li>
+</ul>
+</li>
+<li>教育对象<ul>
+<li>面向 <strong>全体</strong> 学生</li>
+<li>面向 <strong>少数</strong> 人</li>
+</ul>
+</li>
+<li>教育内容<ul>
+<li>使教育者在德智体美劳诸方面都能得到发展的教育</li>
+<li>完全 <strong>围绕应试</strong> 要求，考什么教什么</li>
+</ul>
+</li>
+<li>课程结构<ul>
+<li>课程比较多样化，把课程分为必修课、选修课和 <strong>活动课程</strong> 等几个方面</li>
+<li><strong>单一的学科课程</strong></li>
+</ul>
+</li>
+<li>课业负担<ul>
+<li>着眼于学生的全面和谐发展，严格按教育教学规律授课，课业负担较轻</li>
+<li>不按课程计划授课，随意增加课时、加大作业量，课业负担比较重</li>
+</ul>
+</li>
+<li>教育方法<ul>
+<li>重视双基、发展潜力、培养能力，使学生可以生动活泼、主动地得到发展</li>
+<li>实行学生 <strong>被动</strong> 学习，死抠书本，脱离实际</li>
+</ul>
+</li>
+<li>师生关系 (易考到)<ul>
+<li>强调尊师爱生，师生 <strong>民主平等</strong></li>
+<li>强调师道尊严，师生是一种 <strong>管与被管，教与被教，灌与被灌</strong> 的关系</li>
+</ul>
+</li>
+<li>教学途径<ul>
+<li><strong>开放式</strong> 的现代教育，不光有课堂教学，还能走出课堂，走入社区，学校社区有机结合</li>
+<li>把 <strong>课堂和书本作为教学的唯一途径</strong></li>
+</ul>
+</li>
+<li>评价标准<ul>
+<li>淡化分数的评价体系</li>
+<li>以 <strong>“分”</strong> 为导向，以 <strong>“率”</strong> 为标准，以 <strong>“考”</strong> 为法宝</li>
+</ul>
+</li>
+</ul>
+<h2 id="1-6-学校实施素质教育的途径和方法-（不考）"><a href="#1-6-学校实施素质教育的途径和方法-（不考）" class="headerlink" title="1.6 学校实施素质教育的途径和方法 （不考）"></a>1.6 学校实施素质教育的途径和方法 （不考）</h2><blockquote>
+<p><strong>课堂教学</strong> 是实施素质教育的主阵地</p>
+</blockquote>
+<ul>
+<li>把教学目标的实现，落实到每一堂课，乃至教学的每一个环节</li>
+<li>构建与生活、生产实际和社会发展紧密结合的学科内容体系 （五育并举）</li>
+<li>全方位调动学生的主动性和积极性，保证学生学习的有效性，提高学生学习质量，促进学生学习的良性循环</li>
+<li>最大限度地发挥教师的作用</li>
+<li>建立多层次，多样化的教学模式</li>
+</ul>
+<h2 id="1-7-新课程改革背景下的教学观-（单选、材料采分点）"><a href="#1-7-新课程改革背景下的教学观-（单选、材料采分点）" class="headerlink" title="1.7 新课程改革背景下的教学观 （单选、材料采分点）"></a>1.7 新课程改革背景下的教学观 （单选、材料采分点）</h2><ul>
+<li>教学从以 “教育者为中心” 转向 “学习者为中心”</li>
+<li>教学从 “教会学生知识” 转向 “教会学生学习”</li>
+<li>教学从 “重结论轻过程” 转向 “重结论的同时更重过程” （材料常见采分点，某某老师在课堂上采取了什么方法去激发学生兴趣、引导学生讨论 — 重视过程）</li>
+<li>教学从 “关注学科” 转向 “关注人”</li>
+</ul>
+<h2 id="1-8-新课程改革背景下的评价观-（单选，评价用语，发展性和鼓励性评价，促进学生发展，鼓励学生不能打击学生，较简单属于送分题）"><a href="#1-8-新课程改革背景下的评价观-（单选，评价用语，发展性和鼓励性评价，促进学生发展，鼓励学生不能打击学生，较简单属于送分题）" class="headerlink" title="1.8 新课程改革背景下的评价观 （单选，评价用语，发展性和鼓励性评价，促进学生发展，鼓励学生不能打击学生，较简单属于送分题）"></a>1.8 新课程改革背景下的评价观 （单选，评价用语，发展性和鼓励性评价，促进学生发展，鼓励学生不能打击学生，较简单属于送分题）</h2><ul>
+<li>内容多样化</li>
+<li>主体多元化，自评、学生互评….</li>
+<li>评价系统化，课堂评价用语</li>
+</ul>
+<h1 id="材料题"><a href="#材料题" class="headerlink" title="材料题"></a>材料题</h1><blockquote>
+<p>问题：请结合材料，从教育观的角度，评析某位老师的教育行为</p>
+</blockquote>
+<ul>
+<li><p>首先考虑教育观中哪些知识点可以用来作答</p>
+<ol>
+<li>国家实施素质教育的基本内涵和要求，有 4 条核心的</li>
+<li>新课程改革背景下的教学观第三点，重结论的同时更重过程</li>
+</ol>
+</li>
+<li><p>教育观分为广义教育观和狭义教育观</p>
+<ul>
+<li>狭义教育观包含上述几个知识点</li>
+<li>广义教育观包含上述几个知识点的同时还包含学生观和教师观</li>
+<li>做题时优先考虑狭义教育观，若只找到 1 - 2 条则可以去学生观和教师观找（极少见）</li>
+</ul>
+</li>
+<li><p><strong>案例：</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;李老师认为，要让孩子树立自信心，就必须让孩子发现自己的优点。在一次课上，李老师组织学生讨论：“你有哪些优点？”同学们讨论得非常激烈，有的说自己乐于助人，有的说自己孝顺父母，有的说自己尊敬老师…….大家发现原来自己和小伙伴都有很多优点呢。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这时，一向活泼好动的小明把手举得很高。李老师说：“小明，你说说自己有哪些优点？”小明说：“你为什么总是叫我们说优点呢？我爸爸说，每个人都有缺点，大人有缺点，老师也有缺点，你也有，我想说缺点。”教室里一下安静了，李老师愣了一下，然后说：“是的，我们每个人都有优点和缺点，老师也有缺点，请大家经常帮助我哦，大家围绕小明的观点进行讨论吧！”大家七嘴八舌。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后，李老师总结道：“我们谈自己优点的同时，也要正视自己的缺点，改正了缺点，我们会更强。”课后李老师在自己的日记里记录了这件事，并打算在合适的时候组织学生举办一次“我的小秘密”讨论活动，让同学们说说自己平时不好意思说出的缺点，并引导他们改掉这些缺点。</p>
+</li>
+<li><p>材料题 <strong>分析</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提到小组在课堂上讨论，素质教育的基本内涵中 培养学生的创新精神和实践能力，在课堂教学中会通过各种教学方法去培养学生<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有的说….有的说…，面向全体学生，促进学生的全面发展，面向全体学生，每个学生都关注到了，小明举手表述的观点和老师说的观点不一致也关注到了，促进学生的全面发展，老师组织讨论得是学生性格上的优缺点，老师不单单关注学生的成绩也关注到了学生心理的发展，促进学生德智体美劳各方面的发展<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给每个学生发言机会，针对小明的发言让同学们再次进行讨论，体现了培养学生的主体意识，注重学生个性健康发展</p>
+</li>
+<li><p>材料题 <strong>答题思路</strong></p>
+<ol>
+<li>表态，即对材料中的现象是支持还是否定；对材料中老师的行为是赞许还是批评；材料体现了还是违背了什么</li>
+<li>论证，注意答题角度，使用总分结构。依据就是三观中的要点，结合材料内容去找契合的点，只要是能够自圆其说的都可以回答，点不怕多就怕不全</li>
+<li>总结，正确的做法重复观点，错误的做法说明应该怎么做</li>
+<li>结合材料的时候要用自己的话去说，可以摘抄材料的个别词，不能摘抄材料的整句话</li>
+</ol>
+</li>
+<li><p>材料题 <strong>参考答案</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;李老师的教育行为符合素质教育的要求，值得我们学习<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;素质教育是面向全体学生的教育，是促进学生全面发展的教育，素质教育强调在教育中每个人得到发展，而不是只注重一部分人；强调培养学生在德智体美劳等方面的全面发展，要求受教育者成为有理想、有道德、有文化、有纪律的社会主义事业建设者和接班人，实施素质教育，必须把德育、智育、体育、美育等有机地统一在教学活动的各个环节中。材料中，李老师不只是注重学生们的知识学习，还注重帮助学生们树立自尊心；李老师在班级内组织学生讨论，让学生谈自己的优点并正视自己的缺点，使每位同学更好的认识自己和其他同学，促进全班学生的全面发展<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;素质教育是促进学生个性发展的教育。每个学生都有独特性，不同的认知特征、不同的欲望需求、不同的兴趣爱好、不同的价值取向、不同的创造潜能铸造了个性迥异的学生。因此，教育要考虑到学生的个性差异，充分发展学生的个性。材料中，李老师承认学生之间的差异，每位同学都有自己的优点和缺点，教导同学们发扬自己的优点，并正规自己的缺点，让自己变得更强<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;素质教育是以培养学生的创新精神和实践能力为重点的教育。实施素质教育要全方位调动学生的主动性和积极性，激发学生的兴趣，创设丰富多彩的教育活动，提高学生学习质量。材料中，李老师组织学生讨论问题，改变传统说教的教学方式，调动学生主动性和积极性<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总之，作为教师要践行素质教育的要求，促进全体学生全面发展的同时兼顾学生的个性发展，注重培养学生的创新精神和实践能力    </p>
+</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;崔老师的教育行为是错误的，违背了素质教育的要求。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;崔老师违背了素质教育的全体性,不能忽略任何一个学生。材料中，崔老师只注重对成绩好学生的教育忽视了其他学生。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;崔老师违背了素质教育的全面性，应促进学生德智体美劳全面发展。材料中，崔老师认可学生的偏科,忽视其全面发展。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;崔老师违背了素质教育尊重学生个性的要求，应尊重学生个性，因材施教。材料中，崔老师只看到学生有差异，但是没有看到应该针对学生的特点，进行针对性教育。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;家校合作是实施素质教育的有效途径，崔老师应加强与家长之间的联系，共同促进学生的健康成长。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;崔老师违背了素质教育促进终身可持续发展的要求，注重培养学生的能力。材料中，崔老师对学生的偏科等问题视而不见，不利于学生的发展。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总之，崔老师的行为是严重违背了素质教育的要求,不利于学生的健康成长，我们要引以为戒。</p>
+<h1 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h1><div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>职业认知包括自我认知，如何看待自己，也包括岗位认知，如何看待工作</p>
+</div>]]></content>
       <categories>
-        <category>Grammer</category>
-        <category>Markdown</category>
+        <category>综合素质</category>
+        <category>教育观</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
+        <tag>Teach</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>朗读训练 (1)</title>
-    <url>/2021/01/speak-1/</url>
-    <content><![CDATA[<h1 id="一、海上日出"><a href="#一、海上日出" class="headerlink" title="一、海上日出"></a>一、海上日出</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在船上，为了看日出，我特地起个大早。那时天还没有亮，周围是很寂静的，只有机器房的声音。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天空变成了浅蓝色，很浅很浅的；转眼间天边出现了一道红霞，慢慢儿扩大了它的范围，加强了它的光亮。我知道太阳要从那天际升起来了，便目不转睛地望着那里。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;果然，过了一会儿，在那里就出现了太阳的一小半，红是红的很，却没有光亮。这太阳像负着什么重担似的，慢慢儿，一步一步地，努力向上面升起来，到了最后，终于冲破了云霞，完全跳出了海面。那颜色真红地可爱。一刹那间，这深红的东西，忽然发出夺目的光亮，射得人眼睛发痛，同时附近的云也添了光彩。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有时太阳走入云里，它的光线却仍从云里射透下来，直射到水面上。这时候，人要分辨出何处是水，何处是天，很不容易，因为只能够看见光亮的一片。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有时天边有黑云，而且云片很厚。太阳出来了，人却不能够看见它。然而太阳在黑云里放射出光芒，透过黑云的周围，替黑云镶了一道光亮的金边，到后来才慢慢儿透出重围，出现在天空，把一片片黑云变成了紫云或红霞。这时候，光亮的不仅是太阳、云和海水，连我自己也成了光亮的了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这不是很伟大的奇观么？</p>
-<h1 id="二、可爱的小鸟"><a href="#二、可爱的小鸟" class="headerlink" title="二、可爱的小鸟"></a>二、可爱的小鸟</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;没有一片绿叶，没有一缕炊烟，没有一粒泥土，没有一丝花香，只有水的世界，云的海洋。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一阵台风袭过，一只孤单的小鸟无家可归，落到被卷到洋里的木板上，乘流而下，姗姗而来，近了，近了……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忽然，小鸟张开翅膀，在人们头顶盘旋了几圈，“噗啦”一声落到了船上。许是累了？还是发现了“新大陆”？水手撵它，它不走，抓它，它乖乖的落在掌心。可爱的小鸟和善良的水手结成了朋友。瞧，它多美丽，娇巧的小嘴，啄理着绿色的羽毛，鸭子样的扁脚，呈现出春草的鹅黄。水手们把它带到舱里，给它“搭铺”，让它在船上安家落户，每天，把分到的一塑料桶淡水匀给它喝，把从祖国带来的鲜美的鱼肉分给它吃。天长日久，小鸟和水手的感情日趋笃厚。清晨，当第一束阳光射进舷窗时，它便敞开美丽的歌喉，唱啊唱，嘤嘤有韵，宛如春水淙淙。人类给它以生命，它好不悭吝地把自己的艺术青春奉献给了哺育它的人。可能都是这样？艺术家们的青春只会献给尊敬他们的人。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小鸟给远航的生活蒙上了一层浪漫的色调，返航时，人们爱不释手，恋恋不舍地想把它带到异乡。可小鸟憔悴了，给水，不喝！喂肉，不吃！油亮的羽毛失去了光泽。是啊，我们有自己的祖国，小鸟也有它的归宿，人和动物都是一样啊，哪儿也不如故乡好！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慈爱的水手们决定放开它，让它回到大海的摇篮去，回到蓝色的故乡去。离别前，这个大自然的朋友与水手们留影纪念。它站在许多人的头上，肩上，掌上，胳膊上，与喂养过它的人们一起融进那蓝色的画面……</p>
-<h1 id="三、珍珠鸟"><a href="#三、珍珠鸟" class="headerlink" title="三、珍珠鸟"></a>三、珍珠鸟</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;真好！朋友送我一对珍珠鸟。放在一个简易的竹条编成的笼子里，笼内还有一卷干草，那是小鸟儿舒适又温暖的巢。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有人说，这是一种怕人的鸟。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我把它挂在窗前。那儿还有一大盆异常茂盛的法国吊兰。我便用吊兰长长的、串生着小绿叶的垂蔓蒙盖在鸟笼上，它们就像躲进深幽的丛林一样安全；从中传出笛儿般又细又亮的叫声，就格外轻松自在了。阳光从窗外射入，透过这里，吊兰那些无数指甲状的小叶，一半成了黑影，一半被照透，如同碧玉；斑斑驳驳，生意葱茏。小鸟的影子就在这中间隐约闪动，看不完整，有时连笼子也看不出，却见它们可爱的鲜红小嘴儿从绿叶中伸出来。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我很少扒开叶蔓瞧它们，它们便渐渐敢伸出小脑袋瞅瞅我。我们就这样一点点熟悉了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;三个月后，那一团愈发繁茂的绿蔓里面，发出一种尖细又娇嫩的鸣叫。我猜到，是它们有了雏儿。我呢？绝不掀开叶片往里看，连添食加水时也不睁大好奇的眼去惊动它们。过不多久，忽然有一个更小的脑袋从叶间探出来。哟，雏儿！正是这小家伙！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;它小，就能轻易地由疏格得笼子钻出身。瞧，多么像它的父母：红嘴红脚，蓝灰色的毛，只是后背还没生出珍珠似的圆圆的白点；它好肥，整个身子好像一个蓬松的球儿。</p>
-<h1 id="四、珍珠鸟"><a href="#四、珍珠鸟" class="headerlink" title="四、珍珠鸟"></a>四、珍珠鸟</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;起先，这小家伙只在笼子四周活动，随后就在屋里飞来飞去，一会儿落在柜顶上，一会儿神气十足地站在书架上，啄着书背上那些大文豪的名字；一会儿把灯绳撞得来回摇动，跟着逃到画框上去了。只要大鸟儿在笼里生气地叫一声，它立即飞回笼里去。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我不管它。这样久了，打开窗子，它最多只在窗框上站一会儿，绝不飞出去。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渐渐它胆子大了，就落在我书桌上。它先是离我较远，见我不去伤害它，便一点点挨近，然后蹦到我的杯子上，俯下头来喝茶，再偏过脸瞧瞧我的反应。我只是微微一笑，依旧写东西，它就放开胆子跑到稿子上，绕着我的笔尖蹦来蹦去；跳动的小红爪子在纸上发出嚓嚓响。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我不动声色的写，默默地享受着这小家伙亲近的情意。这样，它完全放心了。索性用那涂了蜡似的、角质的小红嘴，“嗒嗒”啄着我颤动的笔尖。我用手抚一抚它细腻的绒毛，它也不怕，反而友好地啄两下我的手指。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;白天，它这样淘气地陪伴我；天色入暮，它就在父母再三的呼唤声中，飞向笼子，扭动滚圆的身子，挤开那些绿叶钻进去。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一天，我伏案写作时，它居然落到我的肩上。我手中的笔不觉停了，生怕惊跑它。呆一会儿，扭头看，这小家伙竟趴在我的肩头睡着了……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我笔尖一动，流泻下一时的感受：</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信赖，往往创造出美好的境界。</p>
-<h1 id="五、春"><a href="#五、春" class="headerlink" title="五、春"></a>五、春</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;盼望着，盼望着，东风来了，春天的脚步近了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一切都像刚睡醒的样子，欣欣然张开了眼。山朗润起来了，水涨起来了，太阳的脸红起来了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小草偷偷地从土里钻出来，嫩嫩的，绿绿的。园子里，田野里，瞧去，一大片一大片满是的。坐着，躺着，打两个滚，踢几脚球，赛几趟跑，捉几回迷藏。风轻悄悄的，草软绵绵的。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“吹面不寒杨柳风”，不错的，像母亲的手抚摸着你。风里带来些新翻的泥土的气息，混着青草味儿，还有各种花的香，都在微微湿润的空气里酝酿。鸟儿将巢安在繁花绿叶当中，高兴起来了，呼朋引伴地卖弄清脆的喉咙，唱出宛转的曲子，跟轻风流水应和着。牛背上牧童的短笛，这时候也成天嘹亮地响着。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;雨是最寻常的，一下就是三两天。可别恼。看，像牛毛，像花针，像细丝，密密地斜织着，人家屋顶上全笼着一层薄烟。树叶儿却绿得发亮，小草儿也青得逼你的眼。傍晚时候，上灯了，一点点黄晕的光，烘托出一片安静而和平的夜。在乡下，小路上，石桥边，有撑起伞慢慢走着的人，地里还有工作的农民，披着蓑戴着笠。他们的房屋，稀稀疏疏的，在雨里静默着。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天上风筝渐渐多了，地上孩子也多了。城里乡下，家家户户，老老小小，也赶趟儿似的一个个都出来了。舒活舒活筋骨，抖擞抖擞精神，各做各的一份儿事去。“一年之计在于春”，刚起头儿，有的是工夫，有的是希望。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;春天像刚落地的娃娃，从头到脚都是新的，它生长着。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;春天像小姑娘，花枝招展的，笑着，走着。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;春天像健壮的青年，有铁一般的胳膊和腰脚，领着我们向前去。</p>
-<h1 id="六、一言既出"><a href="#六、一言既出" class="headerlink" title="六、一言既出"></a>六、一言既出</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到纽约，不去看看闻名世界的自然历史博物馆，将会是件憾事。这个由一百多个国营、民营基金会、两百多家大公司及五十多万会员鼎力相助支持的民营机构，收藏了数十万件价值连城的物品，实在值得一看再看，其中包括中国周口店发现的史前人类头盖骨等。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第一次去参观时，刚好在一楼的摩根纪念馆欣赏闪闪晶亮的各种宝石。忽然，以为男导游迅速脱下夹克，盖在一块数百公斤重的大石头的一个缺口上，再将带来的游客叫到跟前：“你们看着，这只是一块普通的石头吧！这位女士请你过来一下！”一位游客走到前面，导游员将夹克像变魔术似的拿开，娜女士伸头望了一下，不禁大声“啊！”地叫了起来。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;随着这一声惊叫，我和其他游客一块儿涌上前去，看个究竟。原来里面竟然是耀眼闪光的紫水晶。导游员说话了：这块石头有个动人的故事。它原本是弃置在一位美国人住所的院子里。有一天，主人因石头有碍观瞻，就叫人来将它搬走。谁知就在搬上卡车时，工人一时失手，石头掉在地上，碰裂了一个缺口，大家就像你们刚才一样，都叫了起来，因为这并不是一块普通的石头，而是一块紫水晶。主人知道真相后，平静地说：“这块石头，我本来就是要去丢掉的。现在虽然发现它是宝物，想必是上帝的旨意，我一言既出，绝不反悔。我决定不占为己有，而将它送给博物馆，让更多的人来欣赏。”</p>
-<h1 id="七、朋友和其他"><a href="#七、朋友和其他" class="headerlink" title="七、朋友和其他"></a>七、朋友和其他</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;朋友即将远行。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暮春时节，又邀了几位朋友在家小聚。虽然都是极熟的朋友，却是终年难得一见，偶尔电话里相遇，也无非是几句寻常话。一锅小米稀饭。一碟大头菜，一盘自家酿制的泡菜，一只巷口买回的烤鸭，简简单单，不像请客，倒像家人团聚。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实，友情也好，爱情也好，久而久之都会转化为亲情。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;说也奇怪，和新朋友会谈文学、谈哲学、谈人生道理等等，和老朋友却只话家常，柴米油盐，细细碎碎，种种琐事。很多时候，心灵的契合已经不需要太多的言语来表达。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;朋友新烫了个头，不敢回家见母亲，恐怕惊骇了老人家，却欢天喜地来见我们，老朋友颇能以一种趣味性的眼光欣赏这个改变。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年少的时候，我们差不多都在为别人而活，为苦口婆心的父母活，为循循善诱的师长活，为许多观念，许多传统的约束力而活。年岁逐增，渐渐挣脱外在的限制与束缚，开始懂得为自己活，照自己的方式做一些自己喜欢的事，不在乎别人的批评意见，不在乎别人的诋毁流言，只在乎那一份随心所欲的舒坦自然。偶尔，也能够纵容自己防浪一下，并且有一种恶作剧的窃喜。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就让生命顺其自然，水到渠成吧，犹如窗前的乌柏(bai)，自生自落之间，自有一份圆融丰满的喜悦。春雨轻轻落着，没有诗，没有酒，有的只是一分相知相属(zhu)的自在自得。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夜色在笑语中渐渐沉落，朋友起身告辞，没有挽留，没有送别，甚至也没有问归期。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;已经过了大喜大悲的岁月，已经过了伤感流泪的年华，知道了聚散原来是这样的自然和顺理成章，懂得这点，便懂得珍惜每一次相聚的温馨(xin)，离别便也欢喜。</p>
-<h1 id="八、落花生"><a href="#八、落花生" class="headerlink" title="八、落花生"></a>八、落花生</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们家的后园有半亩空地，母亲说：“让它荒着怪可惜的，你们那么爱吃花生，就开辟出来种花生吧。”我们姐弟几个都很高兴，买种，翻地，播种，浇水，没过几个月，居然收获了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;母亲说：“今晚我们过一个收获节，请你们父亲也来尝尝我们的新花生，好不好？”我们都说好。母亲把花生做成了好几样食品，还吩咐就在后园的茅亭里过这个节。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;晚上，天色不太好，可是父亲也来了，实在很难得。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;父亲说：“你们爱吃花生么？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们争着答应：“爱！”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“谁能把花生的好处说出来？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;姐姐说：“花生的美味。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;哥哥说：“花生可以榨油。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我说：“花生的价钱便宜，谁都可以买来吃，都喜欢吃。这就是它的好处。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;父亲说：“花生的好处有很多，有一种最可贵：它的果实埋在地里，不像桃子、石榴、苹果那样，把鲜红鲜绿的果实高高地挂在枝头上，使人一见就生爱慕之心。你们看它矮矮地长在地上，等到成熟了，也不能立即分辨出来它有没有果实，必须挖出来才知道。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们都说是，母亲也点点头。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;父亲接下去说：“所以你们要像花生，它虽然不好看，可是很有用，不是外表好看而没有实用的东西。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我说：“那么，人要做有用的人，不要做只讲体面，面对别人没有好处的人了。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;父亲说：“对。这是我对你们的希望。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们谈到夜深才散。花生做的食品都吃完了，父亲的话却深深地印在我的心上。</p>
-<h1 id="九、火烧云"><a href="#九、火烧云" class="headerlink" title="九、火烧云"></a>九、火烧云</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;晚饭过后，火烧云上来了。霞光照得小孩子的脸红红的。大白狗变成了红的了，红公鸡变成金的了，黑母鸡变成紫檀色的了。喂猪的老头儿在墙根靠着，笑盈盈地看着他的两头小白猪变成小金猪了。他刚想说：“你们也变了……”旁边走来一个乘凉的人，对他说：“您老人家必要高寿，您老是金胡子了。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天空的云从西边一直烧到东边，红彤彤的，好像是天空着了火。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这地方的火烧云变化极多，一会儿红彤彤的，一会儿金灿灿的，一会儿半紫半黄，一会儿半灰半百合色。葡萄灰，梨黄，茄子紫，这些颜色天空都有，还有些说也说不出来、见都没见过的颜色。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一会儿，天空出现一匹马，马头向南，马尾向西。马是跪着的，像是在等着有人骑到它背上，它才站起来似的。过了两三秒钟，那匹马大起来了，马腿伸开了，马脖子也长了，一条尾巴可不见了。看的人正在寻找尾巴，那匹马就变模糊了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忽然又来了一条大狗。那条狗十分凶猛，它在前边跑着，后边似乎还跟着好几条小狗。跑着跑着，小狗不知跑到哪里去了，大狗也不见了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;接着又来了一条大狮子，跟庙门前的大石头狮子一模一样，也是那么大，也是那样蹲着，很威武很镇静地蹲着。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可是一转眼就变了。要想在看到那头大狮子，怎么也看不到了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一时恍恍惚惚的，天空里又像这个，又像那个，其实什么也不像，什么也看不清了。可是天空偏偏不等待那些爱好它的孩子。一会儿工夫，火烧云下去了。</p>
-<h1 id="十、第一场雪"><a href="#十、第一场雪" class="headerlink" title="十、第一场雪"></a>十、第一场雪</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是入冬以来，胶东半岛上第一场雪。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;雪纷纷扬扬，下得很大。开始还伴着一阵儿小雨，不久就只见大片大片的雪花，从彤云密布的天空中飘落下来。地面上一会儿就白了。冬天的山村，到了夜里就万籁俱寂，只听得雪花簌簌(su)地不断往下落，树木的枯枝被雪压断了，偶尔咯吱一声响。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大雪整整下了一夜。今天早晨，天放晴了，太阳出来了。推开门一看，嗬(he)！好大的雪啊！山川、河流、树木、房屋、全部都罩上了一层厚厚的雪，万里江山，变成了粉妆玉砌的世界。落光了叶子的柳树上挂满了毛茸茸亮晶晶的银条儿；而那些冬夏常青的松树和柏树上，则挂满了蓬松松沉甸甸的雪球儿。一阵风吹来，树枝轻轻地摇晃，美丽的银条儿和雪球儿簌簌地落下来，玉屑似的雪末儿随风飘扬，映着清晨的阳光，显出一道道五光十色的彩虹。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大街上的积雪足有一尺多深，人踩上去，脚底下发出咯(ge)吱咯吱的响声。一群群孩子在雪地里堆雪人，掷雪球。那欢乐的叫喊声，把树枝上的雪都震落下来了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;俗话说：“瑞雪兆丰年。”这个话有充分的的科学根据，并不是一句迷信的成语。寒冬大雪，可以冻死一部分越冬的害虫；融化了的水渗进图层深处，又能供应庄稼生长的需要。我相信这一场十分及时的大学，一定会促进明年春季作物，尤其是小麦的丰收。有经验的老农把雪比作是“麦子的棉被”。冬天“棉被”盖得越厚，明春麦子就长得越好，所以又有这样一句谚语：“冬天麦盖三层被，未来枕着馒头睡。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我想，这就是人们为什么把及时的大雪称为“瑞雪”的道理吧。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>朗读训练 (2)</title>
-    <url>/2021/01/speak-2/</url>
-    <content><![CDATA[<h1 id="十一、小鸟的天堂"><a href="#十一、小鸟的天堂" class="headerlink" title="十一、小鸟的天堂"></a>十一、小鸟的天堂</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的船渐渐地逼近榕树了。我有机会看清它的真面目：是一颗棵大树，有数不清的丫枝，枝上又生根，有许多根一直垂到水面，从远处看，就像一棵大树斜躺在水面上一样。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在正是枝繁叶茂的时节。这棵榕树好像在把它的全部生命力展示给我们看，那么多的绿叶，一簇堆在另一簇的上面，不留一点缝隙。翠绿的颜色明亮地在我们的眼前闪耀，似乎每一片绿叶上都有一个新的生命在颤动，这美丽的南国的树！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;船在树下泊了片刻，岸上很湿，我们没有上去。朋友说这里是“鸟的天堂”，有许多鸟在这棵树上做窝，农民不许人去捉弄它们。我仿佛听见几只鸟扑哧的声音，但是等到我的眼睛注意地看那里时，我却看不见一只鸟的影子。只有无数的树根立在地上，像许多根木桩。地是湿的，大概涨潮时河水常常冲上岸去。“鸟的天堂”里没有一只鸟，我这样想到。船开了，一个朋友拨着船，缓缓地流到河中间去。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二天，我们划着船到一个朋友的家乡去，就是那个有山有塔的地方。从学校出发，我们又经过那“鸟的天堂”。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一次是在早晨，阳光照在水面上，也照在树梢上。一切都显得非常光明。我们的船也在树下泊了片刻。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;起初四周围非常清静，后来忽然起了一声鸟叫。我们把手一拍，便看见一只大鸟飞了起来，接着又看见第二只，第三只。我们继续拍掌，很快地这个树林就变得很热闹了。到处都是鸟声，到处都是鸟影。大的，小的，花的，黑的，有的站在枝上叫，有的飞起来，在扑翅膀。</p>
-<h1 id="十二、上将与下士"><a href="#十二、上将与下士" class="headerlink" title="十二、上将与下士"></a>十二、上将与下士</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乔治·华盛顿是美利坚合众国的第一任总统。就是他领导美国人民为了自由为了独立浴血奋战，赶走了统治者。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乔治·华盛顿是个伟人，但并非后来人所想象的，他专做伟大的事，把不伟大的事都留给不伟大的人去做。实际上，他若在你面前，你会觉得他普通得就和你一样，一样的诚实、一样的热情、一样的与人为善。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一天，他身穿没(mo)膝(xi)的大衣，独自一人走出营房。他所遇到的士兵，没一个人认出他。在一处，他看到一个下士领着手下的士兵筑街垒。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“加把劲(jin)！”那个下士对抬着巨大水泥块的士兵们喊道：“一，二，加把劲！”但是士兵们还是不能把石块放到位置上。他们的力气几乎用尽，石块就要滚落下来。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这时，华盛顿已经疾步跑到跟前，用他强劲(jing)的臂膀，顶住石块。这一援助很及时，石块终于放到了位置上。士兵们转过身，拥抱华盛顿，表示感谢。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“你为什么光喊加把劲而让自己的手放在衣袋里呢？”华盛顿问那下士。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“你问我？难道你看不出我是这里的下士吗？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“哦，这倒是真的！”华盛顿说着，解开大衣纽扣，向这位鼻孔朝天，背绞双手的下士露(lou)出它的军服。“按衣服看，我就是上将。不过，下次再抬重东西时，你就叫上我！”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你可以想象，那位下士看到站在自己面前的是华盛顿本人，是多么羞愧，但至此他也才真正懂得：伟大的人之所以伟大，就在于他决不做逼人尊重的人所做出的那种倒人胃口的蠢事。</p>
-<h1 id="十三、父亲的爱"><a href="#十三、父亲的爱" class="headerlink" title="十三、父亲的爱"></a>十三、父亲的爱</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爹不懂得怎样表达爱，使我们一家人融洽相处的是我妈。他只是每天上班下班，而妈则把我们做过的错事开列清单，然后由他来责骂我们。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一次我偷了一块糖果，他要我把它送回去，告诉卖糖的说是我偷来的，说我愿意替他拆箱卸货作为赔偿。但妈妈却明白我只是个孩子。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我在运动场打秋千跌断了腿，在前往医院途中一直抱着我的，是我妈。爹把汽车停在急诊室门口，他们叫他驶开，说那空位是留给紧急车辆停放的。爹听到了便叫嚷道：“你以为这是什么车？旅游车？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我生日会上，爹总是显得有些不大相称。他只是忙于吹气球，布置餐桌，做杂务。把插着蜡烛的蛋糕推过来。让我吹得，是我妈。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我翻阅照相册时，人们总是问：“你爸爸是什么样子的？”天晓得！他老是忙着替别人拍照。妈和我笑容可掬地一起拍照片，多得不可胜数。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我记得妈有一次叫他教我骑自行车。我叫他别放手，但他却说是应该放手的时候了。我摔倒之后，妈跑过来扶我，爹却挥手要她走开。我当时生气极了，决心要给他点颜色看。于是我马上爬上自行车，而且骑给他看。他只是微笑。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我念大学时，所有的家信都是妈写的。他除了寄支票外，还寄过一封短柬(jian)给我，说因为我没有在草坪上踢足球了，所以他的草坪长得很美。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每次我打电话回家，他似乎都想跟我说话，但结果总是说：“我叫你妈来接。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我结婚时，掉眼泪的是我妈。他只是擤(xing)了一下鼻子，便走出房间。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我从小到大都听他说：“你到哪里去？什么时候回家？汽车有没有汽油？不，不准去。”爹完全不知道怎样表达爱。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;除非……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;会不会是他已经表达了而我却未能察觉？</p>
-<h1 id="十四、和时间赛跑"><a href="#十四、和时间赛跑" class="headerlink" title="十四、和时间赛跑"></a>十四、和时间赛跑</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;读小学的时候，我的外祖母过世了。外祖母生前最疼爱我，我无法排除自己的忧伤，每天在学校的操场上一圈又一圈地跑着，跑得累倒在地上，扑在草坪上痛哭。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那哀痛的日子，断断续续的持续了很久，爸爸妈妈也不知道如何安慰我。他们知道与欺骗我说外祖母睡着了，还不如对我说实话：外祖母永远不会回来了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“什么是永远不能回来了呢？”我问着。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“所有时间里的事物，都永远不会回来。你的昨天过去，它就永远变成昨天，你不能再回到昨天。爸爸以前也和你一样小，现在也不能回到你这么小的童年了；有一天你度过了你的时间，就永远不会回来了。”爸爸说。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爸爸等于给我一个谜语，这谜语比课本上的“日历挂在墙壁，一天撕去一页，使我心里着急”和“一寸光阴一寸金，寸金难买寸光阴”还让我感到可怕；也比作文本上的“光阴似箭，日月如梭”更让我觉得有一种说不出的滋味。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时间过得那么飞快，使我的小心眼里不只是着急，而是悲伤。有一天我放学回家，看到太阳快落山了，就下决心说：“我要比太阳更快的回家。”我狂奔回去，站在庭院前喘气的时候，看到太阳还露着半边脸，我高兴地跳跃起来，那一天我跑赢了太阳。以后我就时常做那样的游戏，有时和太阳赛跑，有时和西北风比快，有时一个暑假才能做完的作业，我十天就做完了；那时我三年级，常常把哥哥五年级的作业拿来做。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每一次比赛胜过时间，我就快乐得不知道怎么形容。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果将来我有什么要教给我的孩子，我会告诉他：假若你一直和时间比赛，你就可以成功！</p>
-<h1 id="十五、捐诚"><a href="#十五、捐诚" class="headerlink" title="十五、捐诚"></a>十五、捐诚</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我在加拿大学习期间遇到过两次募捐，那情景至今使我难以忘怀。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一天，我在渥太华的街上被两个男孩子拦住去路。他们十来岁，穿得整整齐齐，每人头上带着个做工精巧、色彩鲜艳的纸帽，上面写着：“为帮助患小儿麻痹的小伙伴募捐。”其中的一个，不由分说就坐在小凳上给我擦起皮鞋来，另一个则彬彬有礼地发问：“小姐，您是哪国人？喜欢渥太华吗？”“小姐，在你们国家有没有小孩儿患小儿麻痹？谁给他们医疗费？”一连串的问题，是我这个有生以来头一次在众目睽睽之下让别人擦鞋的异乡人，从近乎狼狈窘态中解脱出来。我们像朋友一样聊起天来……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;几个月之后，也是在街上。一些十字路口处或坐着几位老人。他们满头银发，身穿各种老式军装，上面布满了大大小小形形色色的徽章、奖章，每人手捧一大束鲜花，有水仙、石竹、玫瑰及叫不出名字的，一色雪白。匆匆过往的行人纷纷止步，把钱投进这些老人身边的白色木箱内，然后向他们微微鞠躬，从他们手中接过一朵花。我看了一会儿，有人投一两元，有人投几百元，还有人掏出支票填好后投进木箱，那些老军人毫不注意人们捐多少钱，一直不停地向人们低声道谢。同行的朋友告诉我，这是为纪念二次大战中参战的勇士，募捐救济残废军人和烈士遗孀，每年一次；认捐的人可谓踊跃，而且秩序井然，气氛庄严。有些地方，人们还耐心地排着队。我想，这是因为他们都知道：正是这些老人们的流血牺牲换来了包括他们信仰自由在内的许许多多。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我两次把那微不足道的一点钱捧给他们，只想对他们说声“谢谢”。</p>
-<h1 id="十六、妈妈喜欢吃鱼头"><a href="#十六、妈妈喜欢吃鱼头" class="headerlink" title="十六、妈妈喜欢吃鱼头"></a>十六、妈妈喜欢吃鱼头</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我依稀记事的时候，家中很穷，一个月难得吃上一次鱼肉。每次吃鱼，妈妈先把鱼头夹在自己碗里，将鱼肚子上的肉夹下，极仔细地捡去很少的几根大刺，放在我碗里，其余的便是父亲的了。当我也吵着要吃鱼头时，她总是说：“妈妈喜欢吃鱼头。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我想，鱼头一定很好吃的。有一次父亲不在家，我趁妈妈盛饭之际，夹了一个，吃来吃去，觉得没鱼肚子上的肉好吃。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那年外婆从江北到我家，妈妈买了家乡很金贵的鲑鱼。吃饭时，妈妈把本属于我的那块鱼肚子上的肉，夹进了外婆的碗里。外婆说：“你忘啦？妈妈最喜欢吃鱼头。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;外婆眯着眼，慢慢地挑去那几根大刺，放进我碗里，并说：“孩子，你吃。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;接着，外婆就夹起鱼头，用没牙的嘴，津津有味的嗍(suo)着，不时吐出一根根小刺。我一边吃着没刺的鱼肉，一边想：“怎么妈妈的妈妈也喜欢吃鱼头？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29岁上，我成了家，另立门户。生活好了，我俩经常买些鱼肉之类的好菜。每次吃鱼，最后剩下的，总是几个无人问津的鱼头。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而立之年，喜得千金。转眼女儿也能自己吃饭了。有一次午餐，妻子夹了一块鱼肚子上的肉，极麻利地捡去大刺，放在女儿的碗里。自己却夹起了鱼头。女儿见状也吵着要吃鱼头。妻说：“乖孩子，妈妈喜欢吃鱼头。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;谁知女儿说什么也不答应，非要吃不可。妻无奈，好不容易从鱼肋边挑出点没刺的肉来，可女儿吃了马上吐出，连说不好吃，从此再不要吃鱼头了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;打那以后，每逢吃鱼，妻便将鱼肚子上的肉夹给女儿，女儿总是很艰难地用汤匙(chi)切下鱼头，放进妈妈的碗里，很孝顺的说：“妈妈，你吃鱼头。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;打那以后，我悟出一个道理：女人做了母亲，便喜欢吃鱼头了。</p>
-<h1 id="十七、永远的记忆"><a href="#十七、永远的记忆" class="headerlink" title="十七、永远的记忆"></a>十七、永远的记忆</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小学的时候，有一次我们去海边远足，妈妈没有做便饭，便给了我十块钱买午餐。好像走了很久，很久，终于到了海边了，大家坐下来便吃饭，荒凉的海边没有商店，我一个人跑到防风林外面去，级任老师要大家把吃剩的饭菜分给我一点。有两三个男生留下一点给我，还有一个女生，她的米饭拌了酱油，很香。我吃完的时候，她笑眯眯地看着我，短头发，脸圆圆的。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;她的名字叫翁香玉。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每天放学的时候，她走的是经过我们家的一条小路，带着一位比他小的男孩，可能是弟弟。小路边是一条清澈见底的小溪，两旁竹阴覆盖，我总是远远地跟在她后面，夏日的午后特别炎热，走到半路她会停下来，拿手帕在溪水里浸(jin)湿，为小男孩擦脸。我也在后面停下来，把肮脏的手帕弄湿了擦脸，再一路远远跟着她回家。后来我们家搬到镇上去了，过几年我也上了中学。有一天放学回家，在火车上，看见斜对面一位短头发、圆圆脸的女孩，一身素净的白衣黑裙。我想她一定不认识我了。火车很快到站了，我随着人群挤向门口，她也走近了，叫我的名字。这是她第一次和我说话。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;她笑眯眯的，和我一起走过月台。以后就没有再见过她了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这篇文章收在我出版的《少年心事》这本书里。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;书出版后半年，有一天我忽然收到出版社转来的一封信，信封上是陌生的字迹，但清楚写着我本命。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信里面说她看到了这篇文章，心里非常激动，没想到在离开家乡，漂泊异地这么久之后，会看见自己仍(reng)然在一个人的记忆力，她自己也深深记得这其中的每一幕，只是没想到越过遥远的时空，竟然另一个人也深深记得。</p>
-<h1 id="十八、迷途笛音"><a href="#十八、迷途笛音" class="headerlink" title="十八、迷途笛音"></a>十八、迷途笛音</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那年我6岁。离我家仅一箭之遥的小山坡旁，有一个早已被废弃的采石场，双亲从来不准我去那儿，其实那儿风景十分迷人。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个夏季的下午，我随着一群小伙伴偷偷上那儿去了。就在我们穿越了一条孤寂的小路后，他们却把我一个人留在原地，然后奔向“更危险的地带”了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;等他们走后，我惊慌失措地发现，再也找不到要回家的那条孤寂的小道了。像只无头的苍蝇，我到处乱钻，衣裤上挂满了芒刺。太阳已经落山，而此时此刻家里一定开始吃晚餐了，双亲正盼着我回家…….想着想着，我不由得背靠着一棵树，伤心的呜呜大哭起来……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;突然，不远处传来了声声柳笛。我像找到了救星，急忙循声走去。一条小道边的树桩上坐着一位吹笛人，手里还正削着什么。走进细看他不就是被大家称(cheng)为“乡巴佬”的卡廷吗？</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“你好，小家伙”，卡廷说，“看天气多美，你是出来散步的吧？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我怯生生地点点头，答道：“我要回家了”。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“请耐心等上几分钟”，卡廷说，“瞧，我正在削一支柳笛，差不多就要做好了，完工后就送给你吧！”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;卡廷边削边不时把尚未成形的柳笛放在嘴里试吹一下。没过多久，一支柳笛便递到我手中。我俩在一阵阵清脆悦耳的笛声中，踏上了归途……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当时，我心中只充满感激，而今天，当我自己也成了祖父时，却突然领悟到他用心之良苦！那天当他听到我的哭声时，便判定我一定迷了路，但他并不想在孩子面前扮演“救星”的角色，于是吹响柳笛以便让我能发现他，并跟着他走出困境！卡廷先生以乡下人的淳朴，保护了一个小男孩强烈的自尊。</p>
-<h1 id="十九、我不再羡慕……"><a href="#十九、我不再羡慕……" class="headerlink" title="十九、我不再羡慕……"></a>十九、我不再羡慕……</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从山沟沟里跨进大学那年，我才16岁，浑身上下飞扬着土气。没有学过英语，不知道安娜·卡列尼娜是谁；不会说普通话，不敢在公开场合讲一句话；不懂得烫发能增加女性的妩媚；第一次看到班上男同学搂着女同学跳舞，吓得心跳脸红……上铺的丽娜从省城来，一口流利的普通话，一口发音吐字皆佳的英语。她见多识广，安娜·卡列尼娜当然不在话下，还知道约翰·克里斯多夫。她用白手绢将柔软的长发往后一束，用发钳把刘海卷弯，她只要一在公开场合出现，男同学就前呼后拥地争献殷勤。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那时，我对自己遗憾的要命，对丽娜羡慕得要命。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一次，丽娜不厌其烦地描述她八岁那年如何勇敢地从城西换一趟车走到城东，我突然想到，我八岁的时候独自翻过几座大山，把我养的一头老黄牛从深山里找回来，从此我不再羡慕丽娜。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上大学三年级的时候，女同学好像什么事都羡慕男生，“下辈子再也不做女人”这句话挂在了口头……学习成绩差了，知识面窄了羡慕男同学，软弱时哭了就骂自己是个女人没出息，连失恋也怪自己是个女人，甚至连男人可以在夏天穿短裤、背心，理短发都羡慕得要死。有一次一个男同学跟我推心置腹的谈了一个晚上。我知道了男人的好成绩也免不了要死记硬背，男人的知识面也不一定宽；知道了男人也哭，知道了男人常常追求女人却又追求不到；知道了男人也羡慕女人可以穿裙子，知道了男人觉得自己活得累，男人也说：“下辈子不再做个男人”……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;于是我不再为自己是个女人而遗憾。</p>
-<h1 id="二十、轻轻的一声叮咛"><a href="#二十、轻轻的一声叮咛" class="headerlink" title="二十、轻轻的一声叮咛"></a>二十、轻轻的一声叮咛</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出差在外，在一家农家借宿一晚，放亮时又踏上了一段新路。一阵积水响，老大娘追出来，拿着一把她女儿的小花伞：“带上……”看她那慈爱的目光，霎时，我像是听见了母亲的叮咛。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;路上果然下了大雨，许多人在树下店旁躲着。我撑开那把伞，照旧走着，一种说不清却感人至深的温暖和情感洋溢在我的周围。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;途中的一天晚上，我在招待所翻书，读到一篇《母性》的文章：我和太太在马来西亚槟榔屿参加一个游览团体。向导带我们到橡胶园参加割胶。一个男童爬上一棵椰树，正打算用弯刀割下一个椰子，他母亲便在附近房子里叫嚷。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我告诉太太：“她说‘孩子，小心啊，别把手指割掉’。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;向导惊讶地问：“原来你懂马来话。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我答：“我不懂。不过我了解母亲的叮咛。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出差回单位后，我把自己伞下的感受和这则故事说给一位长辈听，他的眼睛似乎有些湿润。他说他的母亲早已过世，但母亲那句“好好工作，注意身体”的嘱咐，一句最平常不过的话，伴随他走过了风风雨雨四十年，成了母亲最珍贵的遗产。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我感动至极。想起了我的母亲。小时候去上学时，她总在我出门时给我整理好凌乱的衣服轻轻的叮咛：“走好，听老师的话。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;又是一个雨天，我骑车去约会。中华门城堡下，刚认识不久的女友走到我身边，轻轻地掀下我雨披的帽子：“看你热的，快把雨披脱下来。”原来，雨早已停了，我额上全是汗，空气清新得很，吸人肺腑的全是温馨。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想到每次约会结束，我推着自行车准备走的时候。她忘不了说一句：“骑好，晚上早一点休息。”于是我认可她了，因为没有爱心的人，是不会为别人着(zhuo)想的。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>朗读训练 (3)</title>
-    <url>/2021/01/speak-3/</url>
-    <content><![CDATA[<h1 id="二十一、难以想象的抉择"><a href="#二十一、难以想象的抉择" class="headerlink" title="二十一、难以想象的抉择"></a>二十一、难以想象的抉择</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;巴尼·罗伯格是美国缅因州的伐木工人。一天早晨，巴尼像平时一样驾着吉普车去森林干活。由于下过一场暴雨，路上到处坑坑洼洼。他好不容易把车开到路的尽头。他走下车，拿了斧子和电锯，朝着林子深处又走了大约两英里路。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;巴尼打量了一下周围的树木，决定把一棵直径超过两英尺的松树锯倒。出人意料的是：松树倒下时，上端猛地撞在附近的一棵大树上，一下子松树弯成了一张弓，旋即又反弹回来，重重地压在巴尼的右腿上。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;剧烈的疼痛使巴尼只觉得眼前漆黑。但他知道，自己首先要做的事是保持清醒。他试图把腿抽回来，可是办不到。腿给压得死死的，一点也动弹不得。巴尼很清楚，要是等到同伴们下工后发现他不见了再来找他的话，很可能会因为流血过多而死去。他只能靠自己了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;巴尼拿起手边的斧子，狠命朝树身砍去。可是，由于用力过猛，砍了三四下后，斧子柄便断了。巴尼觉得自己真的什么都完了。他踹了口气，朝四周望了望。还好，电锯就在不远处躺着。他用手里的断斧柄，一点一点地拨动着电锯，把它移到自己手够得着的地方，然后拿起电锯开始锯树。但他发现，由于倒下的松树呈45度角，巨大的压力随时会把锯条卡住，如果电锯出了故障，那么他只能束手待毙了。左思右想，巴尼终于决定，只有唯一一条路可以走了。他狠了狠心，拿起电锯，对准自己的右腿，进行截肢……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;巴尼把断腿简单包扎了下，他决定爬回去。一路上巴尼忍者剧痛，一寸一寸地爬着；他一次次的昏迷过去，又一次次的苏醒过来，心中只有一个念头：一定要活着回去！</p>
-<h1 id="二十二、悉尼歌剧院建设轶事"><a href="#二十二、悉尼歌剧院建设轶事" class="headerlink" title="二十二、悉尼歌剧院建设轶事"></a>二十二、悉尼歌剧院建设轶事</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蜚(fei)声于世的悉尼歌剧院，坐落在澳大利亚著名港口城市悉尼三面环海的贝尼朗岬(jia)角上。它由一个大基座和三个拱顶组成，占地逾18万平方米。远远望去，既像一簇洁白的贝壳，又像一队杨帆的航船。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;说起悉尼歌剧院的建造，还有一段鲜为人知的轶事。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1956年，当时的澳大利亚总理凯希尔应担任乐团总指挥的好友古申思的请求，决定由政府出资在贝尼朗建造一座现代化的歌剧院。有30个国家的建筑师送来了233个设计方案，由美国著名建筑师沙里宁等人组成的评委会负责评选。评选初期，沙里宁因未能及时参加。他对初评出来的十个方案都不满意，便又仔细地审阅了被淘汰的213个方案，从中挑选出38岁的丹麦建筑师耶尔森·乌特松设计的方案。独具慧眼的沙里宁认为，这个设计方案如能实现，必将成为非凡的建筑。他最终说服其他评委采纳了这个方案，使之免遭“胎死腹中”的厄运。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当乌特松的方案与1959年开始付诸实施时，又遇到了拱顶壳(qiao)面建筑结构和施工技术方面的困难。经过修改设计后，才使壳面得以继续施工。但当工程进行到第九年时，坚定不移的支持者凯希尔总理去世了，新上台的自由党人以造价超过原估算为由，拒付所欠设计费，企图迫使工程停止。而此时剧院的主体结构已经完成，形成骑虎难下，欲罢不能之势。最后经过多方协商，由政府的三人小组取代乌特松负责工程继续建设。经历了15个艰难的春秋之后，悉尼歌剧院终于在1973年竣工，英国女王伊丽莎白二世专程前往悉尼，参加了10月20日举行的盛大落成典礼。</p>
-<h1 id="二十三、匆匆"><a href="#二十三、匆匆" class="headerlink" title="二十三、匆匆"></a>二十三、匆匆</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;燕子去了，有再来的时候；杨柳枯了，有在青的时候；桃花谢了，有再开的时候。但是，聪明的，你告诉我，我们的日子为什么一去不复返呢？是有人偷了他们罢：那是谁？又藏在何处呢？是他们自己逃走了罢：现在又到了哪里呢？</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;去的尽管去了，来的尽管来着；去来的中间，又怎么的匆匆呢？早上我起来的时候，小屋里射出两三方斜斜的太阳。太阳他有脚啊轻悄悄地挪移了；我也茫茫然跟着旋转。于是——洗手的时候，日子从水盆里过去；吃饭的时候，日子从饭碗里过去；默默时，便从凝然的双眼前过去。我察觉他去的匆匆了，伸出手遮挽时，他又从遮挽着的手边过去；天黑时，我躺在床上，他便伶(ling)伶俐(li)俐地从我身上跨过，从我的脚边飞去了。等我睁开眼和太阳再见，这算又溜走一日。我掩着面叹息。但是新来的日子的影儿又开始在叹息里闪过了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在逃去如飞的日子里，在千门万户的世界里的我能做些什么呢？只有徘徊罢了，只有匆匆罢了；在八千多日的匆匆里，除徘徊外，又剩些什么呢？过去的日子如轻烟，被微风吹散了，如薄雾，被初阳蒸融了；我留着些什么痕迹呢？我何曾留着像游丝样的痕迹呢？我赤裸裸来到这世界，转眼间也将赤裸裸的回去罢？但不能平的，为什么偏白白走着一遭啊？</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你聪明的，告诉我，我们的日子为什么一去不复返呢？</p>
-<h1 id="二十四、美国历史上的西红柿案件"><a href="#二十四、美国历史上的西红柿案件" class="headerlink" title="二十四、美国历史上的西红柿案件"></a>二十四、美国历史上的西红柿案件</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;西红柿怎样从南美洲来欧洲，传说不一。有人说，在1554年左右，有一位名叫俄罗拉答利的英国公爵到南美洲旅行，见到这种色艳鲜美的佳果，将之带回大不列颠，作为礼物献给伊丽莎白女王，种植在英王的御花园中。因此，西红柿曾作为一种观赏植物，被称为“爱情苹果”。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;虽称“爱情苹果”，并没有人敢吃它，因为它同有毒的颠(dian)茄(qie)和曼陀罗又很近的亲缘关系，本身又有一股臭味，人们常警告那些嘴馋者不可误食，所以在一段长时间内无人敢问津。最早敢于吃西红柿的，据说是一位名叫罗伯特·吉本·约翰逊的人，他站在法庭前的台阶上当中吃了一个，从而使西红柿成了食品的一员。此事发生在大约一百年前。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1895年，美国商人从西印度群岛运来一批西红柿。按美国的法律，输入水果是免交进口税的，而进口蔬菜则必须缴纳10%的关税。纽约港的关税官认定西红柿是蔬菜。理由是：它要进入厨房，经过烹(peng)制称为人们餐桌上的佳肴。商人则认为应属水果，据理力争：西红柿有丰富的果汁，这是一般蔬菜所不具备的；它又可以生食，同一般蔬菜也不一样，形状色泽也都当属于水果范畴。双方为此争执不下，最后只好把它作为被告，送进美国高等法院，接受审判。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经过审理，法院一致判决：“正像黄瓜、大豆和豌豆一样，西红柿是一种(man)生的果实。在人们通常的谈论中总是把它和种植在菜园中的马铃(ling)薯、胡萝卜等一样作为饭菜用；无论是生吃还是熟食，它总是同饭后才食用的水果不一样。”为此，西红柿才法定为蔬菜，成为人们餐桌上的第一佳肴。</p>
-<h1 id="二十五、第一次"><a href="#二十五、第一次" class="headerlink" title="二十五、第一次"></a>二十五、第一次</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;马路旁的行人道比马路要整整高出一个台阶，而他简直还没满一周岁。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他长着两条细弱的小腿，此刻这两条小腿却怎么也不听使唤，老是哆哆嗦嗦的……但两条腿的主人——小男孩想从马路上登上人行道的愿望却十分强烈，而且信心十足。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;瞧，那只穿着好看袜子的小脚已经抬了起来，踩在了人行道的边沿上，但孩子还没有下定决心登上第二只脚，有那么一会儿他就那么站着：一只脚在人行道上，而另一只脚还在原处没动。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然而小孩又收回跨出去的那一步，他似(si)乎在积蓄力量，小男孩就这么站着，既不前进也不后退，只是固执地注视着自己的前方。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“还小呢，刚刚能走路，就能跨台阶？”路旁一位头发花白的老奶奶啧了啧嘴说，“做大人的要帮他一把。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而孩子的妈妈并没有伸出手去，只是微笑着鼓励说：“自己上，小乖乖，自己上。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小脚又一次地踏上了人行道，另一只脚也费力地提到了空中，这回可真是憋足了劲。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“加油！”“加油！”旁边的小姑娘喊着。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;终于两只脚都站到人行道上去了，这也许是孩子一生中拿下的第一个高地，小胖脸同时绽开了笑容——了不起的胜利。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“好一个登山者！”胡子老爷爷幽默地说，他摸摸孩子的头，“一开头总是困难的，但是现在总算对付过去了。乖孩子，祝你永远向新的高度进军！”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人生会有多少个第一次啊！</p>
-<h1 id="二十六、金子"><a href="#二十六、金子" class="headerlink" title="二十六、金子"></a>二十六、金子</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自从传言有人在萨尔河畔散步时无意发现了金子后，这里便常有来自四面八方的淘金者。他们都想成为富翁(weng)，于是寻遍了整个河床，还在河床上挖出很多大坑，希望借助它们找到更多的金子。的确，有一些人找到了，但另外一些人因为一无所得而只好扫兴归去。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;也有不甘心落空的，边驻扎(zha)在这里，继续寻找。彼得·弗雷特就是其中一员，他在河床附近买了一块没人要的土地，一个人默默地工作。他为了找金子，已把所有的钱都押在这块土地上。他埋头苦干了几个月，知道土地全变成了坑坑洼洼，他失望了——他翻遍了整块土地，但连一丁点金子都没看见。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六个月后，他连卖面包的钱都没有了。于是他准备离开这儿到别处去谋(mou)生。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就在他即将离去的前一个晚上，天下起了倾盆大雨，并且一下就是三天三夜。雨终于停了，彼得走出小木屋，发现眼前的土地看上去好像和以前不太一样：坑坑洼洼已被大水冲刷平整，松软的土地上长出一层绿茸茸小草。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“这里没找到金子”，彼得若有所悟地说，“但这块土地很肥沃，我可以用来种花，并且拿到镇上去卖给那些富人，他们一定会买些花装扮他们华丽的客厅。如果真是这样的话，那么我一定会赚许多钱，有朝一日我也会成为富人……”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;于是他留了下来。彼得花了不少精力培育花苗，不就田地里长满了美丽鲜艳的各色鲜花。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;五年以后，彼得终于实现了他的梦想——成为一个富翁。“我是唯一的一个找到真金的人！”他时常无不骄傲地告诉别人，“别人在这儿找不到金子后便远远地离开，而我的‘金子’是在这块土地里，只有诚实的人用勤劳才能采集到。”</p>
-<h1 id="二十七、启示的启示"><a href="#二十七、启示的启示" class="headerlink" title="二十七、启示的启示"></a>二十七、启示的启示</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;墙壁上，一只虫子艰难地往上爬，爬到一大半，忽然跌落了下来。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是它又一次失败的记录。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然而，过了一会儿，它又沿着墙根，一步一步地往上爬了。第一个人注视着这只虫子，感慨地说；“一只小小的虫子，这样的执着、顽强；失败了，不屈服；跌倒了，从头干；真是百折不回啊！我遭到了一点挫折，我能气馁、退缩、自暴自弃吗？难道我还不如这只虫子？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二个人注视它，禁不住叹气说：“可怜的虫子！这样盲目地爬行，什么时候才能爬到墙头呢？只要稍微改变一下方位，它就能很容易地爬上去；可是它就不愿反省，不肯看一看。唉——可悲的虫子！”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;反省我自己吧：我正在做的那件事一再失利，我该学得聪明一点，不能再闷着头蛮干一气了——我是个有头脑的人，可不是虫子。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第三人询问智者：“观察同一只虫子，两个人的见解和判断截然相反，得到的启示迥然不同。可敬的智者，请您说说，他们哪一个对呢？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;智者回答：“两个人都对。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;询问者感到疑惑：“怎么会都对呢？您是不愿还是不敢分辨是非呢？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;智者笑了笑，回答道：“太阳在白天放射光明，月亮在夜晚投洒清辉，——它们是相反的；你能不能告诉我：太阳和月亮，究竟谁是谁非？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;……但是，世界并不是简单地是非组合体。同样观察虫子，两个人所处的角度不同，他们的感觉和判断就不可能一致，他们获得的启示也就有差异。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你只看到两个人之间的异，却没有看到他们之间的同：他们同样有反省和进取的精神。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;形式的差异，往往蕴含着精神实质的一致；表面的相，倒可能掩蔽着内在的不可调和的对立……</p>
-<h1 id="二十八、猫和老鼠"><a href="#二十八、猫和老鼠" class="headerlink" title="二十八、猫和老鼠"></a>二十八、猫和老鼠</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;很早很早以前，猫并不吃老鼠。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一只猫和一只老鼠住到了一起。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冬天快到了，它们买了一坛子猪油准备过冬吃。老鼠说：“猪油放在家里，我嘴馋，不如藏到远一点的地方去，到冬天再取来吃。”猫说：“行啊。”它们趁天黑，把这坛子猪油送到离家十里远的大庙里藏起来。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一天，老鼠突然说：“我大姐要生孩子，捎信让我去。”猫说：“去吧，路上要小心狗。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天快黑时，老鼠回来了，肚子吃的鼓鼓的，嘴巴油光光的。猫问：“你大姐生了啥呀？”“生了个白胖小子。”猫又问：“起个叫什么名字？”老鼠转一转眼珠说：“叫，叫一层。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;又过了十来天，老鼠又说：“我二姐又要生孩子，请我去吃饭。”猫说：“早去早回。”老鼠边答应边往外走。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天黑了，老鼠回来了，腆着肚子，满嘴都是油。猫问：“你二姐生了啥呀？”“生了个白胖丫头。”“起个叫什么名字？”“叫一半。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;又过了七八天，老鼠又说：“我三姐生孩子，请我吃饭。”猫说：“别回来晚了。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天大黑时，老鼠回来了，一进屋带来一股油味，对猫说：“我三姐也生了个半胖小子，起名叫见底。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;三九天到了，一连下了三四天的大雪。猫说：“快过年了，什么食儿也找不到，明天咱把猪油取回来吧。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二天一早，老鼠走在前面，猫跟在后面，奔大庙走去。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了大庙里，猫第一眼就看到过梁上满是老鼠的脚印，坛子像被开过。猫急忙打开坛子一看，猪油见底了。猫一下子全明白了，瞪圆双眼大声说：“是你给见底了？”老鼠刚张口，见猫已经扑过来，就转身跳下地。猫紧追它，眼看就要被猫追上了，一急眼，老鼠钻到砖(zhuan)缝里去了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后来，老鼠见到猫就逃，猫见到老鼠就抓。</p>
-<h1 id="二十九、珍惜自己存在的价值"><a href="#二十九、珍惜自己存在的价值" class="headerlink" title="二十九、珍惜自己存在的价值"></a>二十九、珍惜自己存在的价值</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一次，仪山禅师洗澡。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;水太热了，仪山让弟子打来冷水，倒进澡盆。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;听师父说，水的温度已经刚好，看见桶里还剩有冷水，做弟子的就随手倒掉了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正在澡盆里的师父眼看弟子倒掉剩水，不禁语重心长地说：“世界上的任何东西，不管是大是小，是多是少，是贵是贱，都各有各的用处，不要随便就浪费了。你刚才随手倒掉的剩水，不就可以用来浇灌花草树木吗？这样水得其用，花草树木也眉开眼笑，一举两得，又何乐而不为呢？”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;弟子受师父这么一指点，从此便心有所悟，取法号为“滴水和尚”。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;万物皆有用，不管你看上去多么卑微像棵草，渺小得像滴水，但都有它们自身存在的价值。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科学家发明创造，石破天惊，举世瞩目，然而，如果没有众人智慧的积累，便就终将成为空中楼阁，子虚乌有。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鲁迅的那段话也掷地有声：“天才并不是自生自长在深林荒野里的怪物，是由可以使天才生长的民众产生、长育出来的，所以没有这种民众，就没有天才。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“落花水面皆文章，好鸟枝头亦朋友。”当年朱熹(xi)就曾这样说过。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你处在社会的低层——相信这是大多数，请千万不要自卑，要紧的还是打破偏见，唤起自信。问题不在人家怎么看，可贵的是你的精神面貌如何？</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;三百六十行，行行出状元。关键还是在于，怎样按照你的实际，为社会，为人类多作贡献，从而在这个世界上找到自己的一片绿洲，一片天空。</p>
-<h1 id="三十、贪得一钱丢了官"><a href="#三十、贪得一钱丢了官" class="headerlink" title="三十、贪得一钱丢了官"></a>三十、贪得一钱丢了官</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;江南有位书生，他父亲在国子监里当助教，他也随父亲住在京城。有一天，他偶然路过寿字大街，见有一间书肆(si)，便走了进去。书肆里有一个少年书生，挑中了一部《吕氏春秋》，点数铜钱交钱时，不小心，一个铜钱掉在地上，轱辘到一边去了，少年并没有发觉。江南书生看见了，暗中把钱踩在脚下，没有作声。等买书少年走后，他俯下身子把铜钱拾了起来，装入自己衣袋中。他以为自己做的巧妙，没人看见。其实旁边坐着的一位老者，早就看见了，老者忽地起来，问他姓啥名什。书生办了昧心事，只得如实说出自己的姓名。老者听罢，冷笑一声走了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后来这个书生读书倒也刻苦，进了誊(teng)录馆，接着拜求选举，被授予江苏常熟县县尉职务。他春风得意，整理行装赴任途中，投递名片去拜见上司，这时候，汤公任江苏巡抚，一见递上来的名片，就传话说不见。书生多次求见，一次也见不到汤公的面儿。巡捕传达汤公的话说：“你的名字已经被写道弹劾书上了！”书生一听愣了，变问：“下官因何事被弹劾？”巡捕传说：“只一个字——贪”。书生考虑，一定是弄错了，于是急切要求见巡捕大人陈述理由。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;巡捕进去禀报后，汤公还是不见，仍让巡捕出来传话说：“你不记得前几个月在书肆中发生的事了吧。当秀才时，就把一个小钱儿看得像命一样，如今侥幸当了地方官，手中有了权柄，能不拖箱带囊，拼命搜刮，做头戴乌纱的窃贼吗？你赶紧卸职去吧。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这时，书生才明白，以前在书肆中询问姓名，讥笑他的老者，就是今天的巡捕大人。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>朗读训练 (4)</title>
-    <url>/2021/01/speak-4/</url>
-    <content><![CDATA[<h1 id="三十一、锁山艺术"><a href="#三十一、锁山艺术" class="headerlink" title="三十一、锁山艺术"></a>三十一、锁山艺术</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;说来你也许不信。在英国，有一个真实的用铁链锁山的故事。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;英国威尔斯有个谷口村，村外有座小山。山下有一家酒店、两家快餐店、两个咖啡馆和一个书店。由于风吹雨打日晒，小山不时落下石块，威胁着顾客和村民的安全。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一天，村民集合在小山下，看到它摇摇欲坠的样子，担心它总有一天要倾倒下来，把村庄压碎。于是经过商量，他们锻铸了一条巨大的粗铁链，把整座小山锁起来。后来，人们称之为“锁山艺术”。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;没想到这一锁，竟锁了六十年。小山再也没有崩下石头，也没有倒塌。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但是，到了1982年，本村年轻人对这古老的“锁山艺术”产生了怀疑，他们再一次开会，研究一个防止山塌的新方法。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1983年4月，苏格兰一家专门治理有坍塌危险山石的公司接受了任务，前来协助解决谷口村的难题。该公司采用了村民的传统工艺，耗资一百万英镑，搭起了二百五十英尺高的棚架，在山石上钻了数百个小孔，筑起了二十个山石固定网。这些铁链和铁网，就像一副护身盔甲一样，把摇摇欲坠的小山牢牢围住。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1984年7月19日早上八点，强烈的地震摇动了整个谷口村。当时发生的是里氏五点五级地震，村民以为小山必倒无疑，结果它岿(kui)然不动。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从此以后，谷口村的“锁山艺术”远近闻名，竟成了英国的一个旅游点。</p>
-<h1 id="三十二、张太太的英语角"><a href="#三十二、张太太的英语角" class="headerlink" title="三十二、张太太的英语角"></a>三十二、张太太的英语角</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我初至英国剑桥，便听说米顿路120号有位慈祥好客的中国太太，她在自己家中专为中国人开办了英语角，每个星期一晚上八时零五分开始，十时半结束。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;半年后，我换了新居离她较近，且工作不如以前忙碌，便渐渐成了英语角的常客。由于平时宽厚而又友善的英国朋友对我不算很蹩脚的英语，总能表现出良好的绅士风度，久而久之，我竟自我感觉良好而得意起来。可第一次上张太太家，一分钟便被无情地指出了三个实实在在的发音错误！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在英语角。我们不仅得到了英语语法、发音、生词和习惯用语方面的提高，更能够交流信息，增进友谊。英语角的客人中，有学术水平颇(po)高的博士，也有旅游者和语言学校的学生。其中大部分来自大陆和台湾，少数来自港澳等地区。学生一批批来，一批批去，其直接结果便是张太太每年都收到难以胜数的信件和贺年卡。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;英语角的内容天南地北，五彩纷呈，其气氛融洽可以说达到哑巴也想唱歌的程度。一次在爱情专题讨论会上，一位来自台湾的博士伤心地向众人诉说：为了考验相爱四年的女友，他故意编写了一封绝交信，没料到真的被女友一脚踹得粉碎性骨折……正当大家七嘴八舌地为他出谋策划时，我满含同情的看着他说：我在湖北有一位秋水回转、亭亭玉立的未婚妻——“停停！”张太太打断道，“没有结婚的，不能称(cheng)之为妻。”想不到英语还真有比中文更保守的地方。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果问在英语角有什么铭心刻骨的特殊收获，我的第一感觉便是真正领略到了血浓于水的华夏情。</p>
-<h1 id="三十三、小河"><a href="#三十三、小河" class="headerlink" title="三十三、小河"></a>三十三、小河</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;离开家乡已经六年了，在梦里也想念那条小河。我在那里长大，在那里经历风雨，小河知道童年的我所经历的一切。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小时候我喜欢站在小河边看哥哥、姐姐在河里游泳，他们一会儿游入水底，在水中捉迷藏，一会儿浮出水面，泼水打仗。我好羡慕他们啊。一次，我见他们向远处游去，幼小的我带着好奇走入水中，恍惚在梦境中一般，幸好母亲发觉我不在岸上，又见水中直泛水泡，不会游泳的母亲费了许多力气将我从死神手中拉了回来。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当时母亲怀着我的小弟弟。由于救我时费力紧张，喝了不少水，一下子就病倒了，经医生治疗也不见好转。躺在床上的母亲怕我再走到河里去，让哥哥姐姐看着我，还吩咐他们一有空就教我学游泳，我一有进步，母亲就显得很高兴，可她的病一点也没好。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就在那年秋天，母亲离我们去了，小弟弟一生下来不哭也不动，也追随母亲去了。为了我的生存，母亲去了，弟弟也去了。母亲生育了我，又从死神手中救了我。她给了我两次生命。临终前，她拉着我们兄妹四人的手，眼里流露出的尽是爱，她为了我们，没有怨言，倾泻给我们的全部的爱！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;母亲去世后，我便常站在河边，幻想着能从小河里看到母亲。她是从小河走向那个世界的，那轻轻的流水声多像母亲温柔的语声，那缓缓拍打堤岸的河水，多像母亲的手。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长大了，我也常去河边，高兴时去，烦恼时也去。清静柔顺的河水，就像母亲充满爱的目光，我带去的欢乐便愈加热烈，我带去的烦恼也烟消云散。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如今我离去了，小河被我远远地抛在故乡，可我永远地思念着你，小河。</p>
-<h1 id="三十四、献给母亲的歌"><a href="#三十四、献给母亲的歌" class="headerlink" title="三十四、献给母亲的歌"></a>三十四、献给母亲的歌</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蓝蓝的天空白云飘，我想飞身上天把这洁白的云轻轻摘下献给妈妈，作她的围巾。雪梅峰上雪梅开，我不畏路险风萧萧，也要把雪梅摘下献给我伟大的妈妈。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小鸟啾(jiu)啾细柳枝。春花遍地开。妈妈每在新春之前，总是要为自己定下一个计划，今年要在那亩地开辟一片瓜地，让瓜结得大大的，甜甜的，让儿女们假期美美地吃上好瓜；或者在田埂上种些高粱、玉米，好让儿女们过节能吃上甜甜的高粱饴(yi)、香喷喷的玉米棒。妈妈总是想着让我们吃上可口美味的东西，从不说她要吃什么。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全家团圆，妈妈忙前忙后，总像有使不完的劲。儿女们叫妈妈休息一下，妈妈却倔强而喜悦。妈妈虽银丝飘飘，却心明眼睛亮。每每饭后茶余，把我们集中在一起，询问学习、生活、人际关系。我们进步时，妈妈就满脸微笑，温柔地表扬我们；当我们沮丧失落时，妈妈就谆(zhun)谆教导，循循善诱，犹如春天雨露，滋润着我们的心田。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;孩子将要远行，昏暗的灯光下，妈妈手拿针针线，密密地缝补着孩子的衣服。妈妈眼睛不好，总是缝一针，落(la)两针。她那轻轻的叹息声，飘至我的心中，我总是泪湿枕巾。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;离家几千里，每每眺望远方，我似乎看见我的妈妈站在小山坡上，手搭凉棚，在寻找着，凝视着，盼望儿女们归来。我时时在梦中望见妈妈展开双臂，呼唤着我，向我走来，我挑床而起，向妈妈扑去……妈妈给了我们坚强的性格，上进的精神，我的妈妈是世上最好的妈妈。</p>
-<h1 id="三十五、放牛的日子"><a href="#三十五、放牛的日子" class="headerlink" title="三十五、放牛的日子"></a>三十五、放牛的日子</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是山里的孩子，七岁那年，妈对我说：“你不能再白吃饭了。”她把我带到一头大水牛跟前。于是，我的一段童年便和一条用麻线搓成的牛绳拴在了一起。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;牧童们都喜欢骑到牛背上，让牛儿驮着走。学军的那头老水牛，颇(po)通人性。谁骑它不用爬，只要踩到它的头顶上，在喊一声：“伸脚！”它便会把头一抬，轻轻地把你送上宽宽的背脊。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最有趣的是在酷暑的中午，带着牛儿去水里游泳。太阳热热地晒着，婵儿高唱，稻花飘香。为了不弄湿衣裤，我们一律脱光身子，在银色的浪花里嬉戏。会游的，畅快地与水里的牛儿为伴，游来游去，累了就爬到牛背上让牛驮着游来游去。不会游的，则在水浅的河边，两手支着水底的砂石，或抓着岸边的水草、藤蔓(wan)，双脚胡乱地敲击水面，我就是这样学会游泳的。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可是放牛的日子里，也常有人们的苦难给我们幼小的心灵带来重轭(e)。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一天傍晚，我踏进家门，昏暗地油灯下，妈递给我一个竹篮，篮子里放着十来个红薯。“给我康公家送去，他们还没吃晚饭呢。”妈说。我没说话，默默地照办了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我放了整整一年的牛，因为八岁那年我幸运地上学了，只在课余偶尔牵牵那根牛绳。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;放牛的日子里，我似乎没有感受到什么大的苦难，但我那多愁善感的心灵却携上了人们被苦难灼干的眼睛。从山里走到都市，我一直用心灵装填着这些痛苦。然而，如今想来，这些痛苦已经不再是痛苦了，而是一种心灵感悟的财富！这也许是我一直保持了放牛时那颗欢乐的心灵的缘故。</p>
-<h1 id="三十六、雪花飘啊飘"><a href="#三十六、雪花飘啊飘" class="headerlink" title="三十六、雪花飘啊飘"></a>三十六、雪花飘啊飘</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;清晨起来，拉开窗帘，一个银亮的世界展现在我眼前。我一看见这纯白的雪片，就只想尽快扑进这雪白的世界。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;妈妈送我走出家门，并三番五次地叮嘱我路上小心。我只顾观赏雪景，自然觉得妈妈啰嗦。“回去吧，真烦人！”便头也不回地上路了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“妈妈，快，快啦我跑！”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;雪地中一位年轻的母亲拉着身后的小女儿跑着，笑着。忽然，母亲脚下一滑，摔倒在雪地上。我忙跑过去拉起她，她却不顾自己，而是马上扶起坐在地上的小女儿。女儿也很懂事地给妈妈拍去头发上的雪，轻轻地问了一声：“妈妈，您疼不疼？”母亲由衷地笑了，笑得那么舒心。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;望着雪片纷飞中母女俩紧紧相偎的身影，我的脑海里立刻映射出了十年前似曾相识的一幕：那时，我也曾十分乖巧地为妈妈拍雪，扶妈妈走路。可十年后同样的雪天，我却只顾自己的兴致把妈妈的关心搁在一边。也许妈妈并未留意我的话，但十七岁的我应该理解父母的苦心，因为在他们的眼里我永远是个长不大的孩子。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;也许刚才的那位母亲摔得很重，可小女儿简单的一句“妈妈，你疼不疼”，便已化解了她的疼痛。不管外界多冷，一股股暖流也会涌上心头，这便是世上最动人的欣慰，也是像雪一样纯的真情。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;雪花飘啊飘，我目送那对母女远去，便急切地回转身，我要回家去对父母说：“爸爸，妈妈，雪大路滑，当心啊！”</p>
-<h1 id="三十七、我的母亲独一无二"><a href="#三十七、我的母亲独一无二" class="headerlink" title="三十七、我的母亲独一无二"></a>三十七、我的母亲独一无二</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记得我13岁时，和母亲住在法国东南部的耐斯城。母亲没有丈夫，也没有亲戚，够清苦的，但她经常能拿出令人吃惊的东西，摆在我面前。她从来不吃肉，一再说自己是素食者。然而有一天，我发现母亲正仔细地用一小块碎面包擦那给我煎牛排有的油锅。我明白了她称自己为素食者的真正原因。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我16岁时，母亲成了耐斯市美蒙旅馆的女经理。这是，她更忙碌了。一天，她瘫在椅子上，脸色苍白，嘴唇发灰。马上找来医生，做出诊断：她摄取了过多的胰岛素。直到这时我才知道母亲多年一直对我隐瞒的疾痛——糖尿病。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;她的头歪向枕头一边，痛苦地用手抓挠胸口。床架上方，则挂着一枚我1932年赢得耐斯市少年乒乓球冠军的银质奖章。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;啊，是对我的美好前途的憧憬支撑着她活下去，为了给她那荒唐的梦至少加一点真实的色彩，我只能继续努力，与时间竞争，直至1938年我被征入空军。巴黎很快失陷，我辗转调到英国皇家空军。刚到英国就接到了母亲的来信。这些信是由在瑞士的一个朋友秘密地转到伦敦，送到我手中的。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在我要回家了，胸前佩戴着醒目的绿黑两色的解放十字绶带，上面挂着五六枚我终身难忘的奖章，肩上还佩戴着军官肩章。到达旅馆时，没有一个人跟我打招呼。原来，我母亲在三年半以前已经离开人间了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在她死前的几天中，她写了近250封信，把这些信交给她在瑞士的朋友，请这个朋友定时寄给我。就这样，在母亲死后的三年半的时间里，我一直从她身上吸取着力量和勇气——这使我能够继续战斗到胜利那一天。</p>
-<h1 id="三十八、在国外的中国孩子应学点中文"><a href="#三十八、在国外的中国孩子应学点中文" class="headerlink" title="三十八、在国外的中国孩子应学点中文"></a>三十八、在国外的中国孩子应学点中文</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一位高棉的华侨把他的两个儿子送到我这里来，要求教他们学国语。这两个孩子都是美国出生的，只会说英语。我问他为什么想让孩子学国语，他说：“是中国人嘛！不会说母语总是不好的，而且二十一世纪肯定会是中国人的世纪，到那时才学国语就晚了。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一位华侨的一片心意。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我主张在国外（不只是在美国）的中国孩子，都应该学点中文。首先：“是中国人嘛！不会说母语总是不好的。”在美国的华人当中，有些是要等到事业有所成就之后再回国，有些人已经拿到了绿卡。据了解，在得到绿卡的人群中，准备进一步加入美国籍的只是少数，多数人是希望在得到绿卡后，能够“来去自由”，所以对于这些绿卡持有者来说，他们现有的身份是华侨，华侨的孩子还是应该学些中文才好，否则一旦你要回国，由于语言不通，会遇到许多麻烦。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你已经入了美国籍，但作为华裔，学一点中文还是有好处的。随着中国国际地位的不断提高，世界各地区逐步掀起了“学汉语热”，中国的文化正逐步为世界所了解所接受，中国的工农业产品正逐步跨入更多国家的国门，很多外国人原来对中国一无所知，或者只知道一些被歪曲了的形象。但是今天的中国毕竟不同于往昔了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不少在外国已经生活了几十年的外国籍华人，他们看到新中国在世界上的影响越来越大，都纷纷要到中国去进行学术交流，去培养科技人才，去投资办厂办学，会中文成为一大优势。还有中国孩子到了要找伴侣的时候，很多人还是愿意找中国人，会讲中国话，是一种最好的沟通方式。</p>
-<h1 id="三十九、世界居民奇葩"><a href="#三十九、世界居民奇葩" class="headerlink" title="三十九、世界居民奇葩"></a>三十九、世界居民奇葩</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在闽苍苍茫茫的崇山峻岭之中，点缀着数以千计的圆形土楼，充满神奇的山寨气息。这就是被誉为“世界居民奇葩”、世上独一无二的神话般的山区建筑模式的客家人居民。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他们的居住地大多在偏僻、边远的山区，为了防卫盗匪的骚扰和土著的排挤，便营造“抵御性”的营垒式住宅，并不断进步发展，在土中掺(chan)石灰，用糯米饭、鸡蛋清作粘(nian)合剂，以竹片、木条作筋骨，夯(hang)筑起墙厚1米、高15米以上的土楼。他们大多为三至六层楼，100至200多间房如柑瓣状均匀布列各层，宏伟壮观。大部分土楼历经两三百甚至五六百年的地震撼动、风雨侵蚀以及炮火攻击而安然无恙，显示了传统艺术文化的魅力。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;客家先民们崇尚圆形，把圆形当天体之神来崇拜。主人认为圆是吉祥、幸福和安宁的象征，这些都体现了土楼人家的民俗文化。圆墙的房屋均按八卦形布局排列，卦与卦之间没有防火墙，整齐划一，充分显示它突出的内向性、强烈的向心性、惊人的统一性。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;客家人在治家、处事、待人、立身等方面无不体现儒家的思想及其文化特征。有一座土楼，先辈希望子孙和睦相处，以和为贵，便用正楷大字写成对联刻在大门上：“承前祖德勤和俭，启后子孙读与耕。”强调了儒家立身的道德规范。楼内房间大小一模一样，他们不分贫富，贵贱，每户人家均等分到底层至高层各一间房，各层房屋的用途达到惊人的统一，底层是厨房兼饭堂，二层当贮仓，三层以上作卧室，两三百人聚居一楼，秩序井(jing)然，毫无混乱。土楼内所存在的儒家文化遗风，让人感到中华民族传统文化的蒂固根深。</p>
-<h1 id="四十、神奇的燕子洞"><a href="#四十、神奇的燕子洞" class="headerlink" title="四十、神奇的燕子洞"></a>四十、神奇的燕子洞</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南方北方的溶洞，我看过许多处，觉得惟有云南建水县的燕子洞独具特色。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;洞内景观分水旱两路，水路可有碧绿的泸(lu)江穿洞而过，洞中许多熔岩形成的生动形象，姿态万千地展现在灯光之中，让人看得眼花缭乱。旱路有一条绝壁长廊，藏有不少碑文石刻，还有一处天然舞厅，五六十人翩翩起舞是绰绰有余的。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;常年歌舞在洞中，劳作在洞中的是那许多呢喃穿飞的燕子，它们辛辛苦苦把窝巢建筑在悬崖绝壁，这一向被人们称之为神奇的景观。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;燕子的巢便是山珍美味中的燕窝，与熊掌鱼翅享有同等声誉。燕窝所以贵重，除其营养价值外，还在于其少，更在于其难采，所以到燕子洞参观的人，最难得的机缘是观看采燕窝。每年春分时节，燕子纷纷飞归洞中，为了保护燕子繁衍，一直到入秋是不允许采燕窝的，入秋后新一代小燕飞去暖和地方过冬，采燕窝的活动才开始。采燕窝要靠人矫健的手脚，在五十多米高的悬崖绝壁攀援，抬手动足都随时有险情发生，观看的人也都为采燕窝的人捏一把汗。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;采集高手一天能采集五公斤燕窝，他们说，那艰险自己也担一份心呢！不过需要的是大胆、细心、镇定。采燕窝的绝技，一代代地传下来了，可真是一方水土养一方人啊。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;采下燕窝之后，要经过加工才能成为佳品。如今来燕子洞的游人可以品尝到燕窝的稀粥，在这里，贵重的燕窝已经是一种普及的食品了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我赞美燕窝，赞美采燕窝的人勇敢和高超技巧，然而，我更赞美建筑窝巢的那些不辞辛劳又具有奉献精神的燕子。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>朗读训练 (5)</title>
-    <url>/2021/01/speak-5/</url>
-    <content><![CDATA[<h1 id="四十一、爱痕"><a href="#四十一、爱痕" class="headerlink" title="四十一、爱痕"></a>四十一、爱痕</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记得一位伟人说过：“母亲是女儿心中的太阳。”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是太阳底下最幸福的人。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我母亲是普通工人，常年患病，病史几乎与我同龄。她身材瘦小，性格温柔而倔强。年届不惑，看起来比实际年龄略显苍老。憔悴的面容，记录了命运多舛的坎坷经历。为了排除母亲久病卧床的孤寂，为了回报圣洁的母爱，在春暖花开的日子里，我用“小飞鸽”自行车驮着母亲到郊外散心。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;郊外的景色真美啊！湛蓝的天空，像一池倒映的湖水；清新的空气，似醇酒的芳香，令人心旷神奇。我一边吃力地蹬车，一边当导游，向母亲介绍改革开放给农村带来的巨大变化。我的衬衫和后背黏在了一起，额头沁(qin)出一层汗珠。爬上一道陡坡，准备跨越一条铁道。我弯腰弓背，喘着粗气，小心翼翼地行驶。突然，车子在水泥的路基上颠簸(bo)了一下，我的身体失去了平衡。就在车倒人翻的一刹那，我猛然地侧过头，用自己的身体挡住了母亲。母亲安然无恙，我却觉得眼前一黑，下颌(he)被坚硬的铁轨磕伤，殷红的鲜血顿时淌了下来。母亲潸然泪下：“好玉玉，妈难为你啦……”我用手帕擦去母亲腮(sai)边泪水，打趣地说：“磕破点皮，没关系。这不正好多了个‘酒窝’吗！”母亲破涕为笑，笑声中包含着诚挚的母爱——至高无上永恒之爱！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后来，我的下颌果然留下了一道疤痕——充满人间亲情的爱痕。从这道值得自豪的孝痕上，我感悟到了做人的真正价值。</p>
-<h1 id="四十二、家乡的桥"><a href="#四十二、家乡的桥" class="headerlink" title="四十二、家乡的桥"></a>四十二、家乡的桥</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;家乡的桥是我梦中的桥。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;家乡村边有一条河，曲曲弯弯，河中架一弯石桥，弓样的小桥横跨两岸。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每天，不管是鸡鸣晓月、日丽中天，还是月华泻地小桥都印下串串足迹，洒落串串汗珠。那是乡亲为了追求多棱的希望，兑(dui)现美好的遐想。弯弯小桥，不时荡过轻吟低唱，不时露(lu)出舒心的笑容。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因而，我稚(zhi)小的心灵，曾将心声献给小桥：你是一弯银色的新月，给人间普照光辉；你是一把闪亮的镰刀，割刈(yi)着欢笑的花果；你是一根晃悠悠的扁担，挑起了彩色的明天！哦，小桥走进我的梦中。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我在漂泊他乡的岁月，心中总涌动着故乡的河水，梦中总看到弓样的小桥。当我访南疆探北国，眼帘闯进座座雄伟的长桥时，我的梦变得丰满了，增添了赤橙黄绿青蓝紫。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;弯弯的小桥，是我梦中的桥吗？30多年过去，我戴着满头霜花回到故乡，第一紧要的便失去看望小桥。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;啊！小桥呢？小桥躲起来？河中一道长虹，浴着朝霞熠熠闪光。哦，雄浑的大桥敞开胸怀，汽车的呼啸、摩托的笛音、自行车的叮铃，合奏着进行交响乐；南来的钢筋、花布，北往的柑橙、三鸟，给出交流欢悦图……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;满桥豪笑满桥歌啊！蜕变的桥，传递了家乡进步的消息，透露了家乡富裕的声音。时代的春风，美好的追求，我蓦地记起儿时唱给小桥的歌，哦，明艳艳的太阳照耀了，芳香甜蜜的花果捧来了，五彩斑斓的月拉开了！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我心中涌动的河水，激荡起甜美的浪花。我仰望一碧蓝天，心底轻声呼喊：家乡的桥啊，我梦中的桥！</p>
-<h1 id="四十三、挤油"><a href="#四十三、挤油" class="headerlink" title="四十三、挤油"></a>四十三、挤油</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我上小学的时候，日子过得很苦。学校是一座小土庙，破破烂烂的。冬天里四面进风，学生们就常常冻了手脚。寒冷的早晨我们读着书，窗外亮亮的阳光一照，我们就急切地盼着下课了。铃声一响，学生们蜂拥而出，跑进干冷的阳光里，站在教室前，跺跺脚，脚暖了就沿墙根一字排开，中间站个大个，两边人数相等，一齐往中间挤，咬牙，弓腿，喊号子，挤掉了帽子是顾不及捡的，绷断了线做的腰带，也只能硬撑着，一来二去，身体就暖和起来，甚至冒出汗来。这种游戏，我们叫挤油，天天要做的。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那时做老师的并不反对我们这一活动。记得教我们数学的老师，年龄不大，个头不小，冬天戴一顶油乎乎的破军帽，帽沿皱皱巴巴，他教我们学小数时，把0.24读成零点二十四，是过了一天又让我们读作0.24的。他常靠墙根一站，两手向自己一挥，“来”，学生们便一拥而上，好像总是挤不动他，上课铃一响，他猛地抽身而去，学生们便倒成一片。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语文老师是上了年纪的，姓余，面黑，不苟言笑，据说私塾底子厚实。他当然不挤油了，总是提前走进教室，写一些成语要我们抄背，诸如“爱屋及乌”、“入木三分”之类。开课前总是先提问题，我们最怕的就是头十分钟，回答不出来，他就会拿眼瞪着你，半天说一句：“挤油的劲呢？站着！”</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那时学生穿的小棉袄都是自家纺的棉布，粗糙，易坏，在凹凸不平的黄土墙上磨不了多久，就会露(lu)出黑黄的棉絮，回家总少不了挨骂：“又在墙上磨痒痒了。”呵斥好像并没有减少了挤油的次数，孩子快乐起来的时候，什么都敢忘记。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是我童年时代最有趣的游戏。</p>
-<h1 id="四十四、《生命在于奉献——电视连续剧（猴娃）观后》"><a href="#四十四、《生命在于奉献——电视连续剧（猴娃）观后》" class="headerlink" title="四十四、《生命在于奉献——电视连续剧（猴娃）观后》"></a>四十四、《生命在于奉献——电视连续剧（猴娃）观后》</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从今年除夕起，我很认真地看了由中央电视台首播的电视剧《猴娃》，深深地被剧中的人物命运和情节所打动。近日，我又一次观赏了该剧，感慨颇(po)多。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记得六十年代出，由绍剧表演艺术大师六龄童主演的绍剧《孙悟空三打白骨精》风靡全国，誉满海外。毛泽东主席先后三次观看了他们父子的演出并挥毫作诗《七律——和郭沫若同志》，留下了“金猴奋起千钧棒，玉宇澄清万里埃”的千古绝唱。祖籍绍兴的周恩来总理，在观看了家乡的绍兴戏后，高兴地抱起了“猴娃”天星合影留念，称他小六龄童，这既是对他继承父业的鼓励，也是对他艺术上的肯(ken)定。我曾经五次看过“猴娃”在剧中扮演的可爱动人的“小传令猴”，他的表演常常博得同行和观众的热烈掌声。生活中的“猴娃”聪颖活泼，机敏过人，每次见着我总是阿姨长阿姨短地说个不停，他曾不止一次的说就喜欢看阿姨您演的评剧，百看不厌。可万万没有想到，这么一位在艺术上日趋辉煌、前途不可估量的小“猴娃”，竟然被白血病这个病魔无情地夺走了生命，年仅16岁。他的英年早逝，着实令人心痛不已。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;又一个16年，值得大家欣慰的是“猴娃”的小弟弟天来（即六小龄童），发奋拼搏，在大型电视连续剧《西游记》中扮演的孙悟空获得巨大的成功，终于完成了兄长临终前的最后嘱托，成为名扬中外、妇孺皆知的新一代美猴王。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;衷心的感谢拍摄单位让广大电视观众看到了这么一部成功的佳作。《猴娃》给青少年指引了一条成才的路，也使我深深感受到：人的生命在于奉献。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“猴娃”的艺术永存。</p>
-<h1 id="四十五、荔枝蜜"><a href="#四十五、荔枝蜜" class="headerlink" title="四十五、荔枝蜜"></a>四十五、荔枝蜜</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今年四月，我到广东从化温泉小住了几天。那里四围都是山，环抱着一潭春水。那又浓又翠的景色，简直是一幅青绿山水画。刚去的当晚是个阴天，偶尔倚着楼窗一望，奇怪啊，怎么楼前凭(ping)空涌起那么多黑黝黝的小山，一重一重的，起伏不断？记得楼前是一片园林，不是山。这到底是什么幻景呢？赶到天明一看，忍不住笑了。原来是满野的荔枝树，一棵连一棵，每棵的叶子都密的不透缝，黑夜看去，可不就像小山似的！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;荔枝也许是世上最鲜最美的水果。苏东坡写过这样的诗句：“日啖(dan)荔枝三百颗，不辞长作岭南人。”可见荔枝的妙处。偏偏我来的不是时候，荔枝刚开花。满树浅黄色的小花，并不出众。新发的嫩叶，颜色淡红，比花倒还中看些。从开花到果子成熟，大约得三个月，看来我是等不及在这儿吃鲜荔枝了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;吃鲜荔枝蜜，倒是时候。有人也许没听过这稀罕物儿吧？从化的荔枝树多得像汪洋大海，开花时节，那蜜蜂满眼嘤嘤嗡嗡，忙得忘记早晚。荔枝蜜的特点是成色纯，养分多。住在温泉的人多半喜欢吃这种蜜，滋养身体。热心肠的同志送给我两瓶。一开瓶子塞儿，就是那么一股甜香；调上半杯一喝，甜香里带着股清气，很有点鲜荔枝的味儿。喝着这样的好蜜，你会觉得生活都是甜的呢。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我不觉动了情，想去看看一向不大喜欢的蜜蜂。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;荔枝林深处，隐隐露出一角白屋，那是温泉公社的养蜂场，却敢取个有趣的名儿，叫“养蜂大厦”。一走近“大厦”，只见成群结队的蜜蜂出出进进，飞去飞来，那沸沸扬扬的情景会使你想，说不定蜜蜂也在赶着建设什么新生活呢。</p>
-<h1 id="四十六、海燕"><a href="#四十六、海燕" class="headerlink" title="四十六、海燕"></a>四十六、海燕</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在苍茫的大海上，风聚集着乌云。在乌云和大海之间，海燕像黑色的闪电高傲的飞翔。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一会儿翅膀碰着海浪，一会儿箭一般地直冲云霄，它叫喊着，——在这鸟儿勇敢的叫喊声里，乌云听到了欢乐。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在这叫喊声里，充满着对暴风雨的渴望！在这叫喊声里，乌云感到了愤怒的力量、热情的火焰和胜利的信心。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;海鸥在暴风雨到来之前呻吟着，呻吟着，在大海上面飞窜(cuan)，想把自己对暴风雨的恐惧，掩藏到大海深处。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;海鸥也呻吟着，这些海燕呀，享受不了生活和战斗的欢乐：轰隆隆的雷声就把它们吓坏了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;愚蠢的企鹅，畏缩地把肥胖的身体躲藏在峭崖底下……只有那高傲的海燕，勇敢地、自由自在地，在翻起白沫的大海上面飞翔。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乌云越来越暗，越来越低，向海面压下来；波浪一边歌唱，一边冲向空中去迎接那雷声。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;雷声轰响，波浪在愤怒的飞沫中呼啸着，跟狂风争鸣。看吧，狂风紧紧抱起一堆巨浪，恶狠狠地扔到峭崖上，把这大块的翡翠摔成尘(chen)雾和水沫。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;海燕叫喊着，飞翔着，像黑色的闪电，箭一般的穿过乌云，翅膀刮起波浪的飞沫。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;看吧，它飞舞着像个精灵——高傲的、黑色的暴风雨的精灵，它一边大笑，他一边高叫……它笑那些乌云，它为欢乐而高叫！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个敏感的精灵，从雷声的震怒里早就听出了困乏，它深信乌云遮不住太阳，是的，遮不住的！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;风在狂吼……雷在轰响……</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一堆堆的乌云像青色的火焰，在无底的大海上燃烧。大海抓住金箭似(shi)的闪电，把它熄灭在自己的深渊里。闪电的影子，像一条条火舌，在大海里蜿蜒浮动，一晃就消失了。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暴风雨！暴风雨就要来啦！</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是勇敢地海燕，在闪电之间，在怒吼的大海上高傲地飞翔。这是胜利的预言家在叫喊：让暴风雨来得更猛烈些吧……</p>
-<h1 id="四十七、高楼远眺"><a href="#四十七、高楼远眺" class="headerlink" title="四十七、高楼远眺"></a>四十七、高楼远眺</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;住在十几层的高楼上，每天都能凭(ping)窗远眺，俯瞰着广袤和辽阔的世界。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;黎明时分，张望着东方白茫茫的云雾中，一轮血色的太阳，从多少耸立着的高楼背后冉冉升起，觉得它离自己好近啊，还在猜测着纵横交错排列成一长串队伍的高楼里，也应该有数不清的人们，同样都热情澎湃地欢呼它艳丽的光焰。比起在大平原上，浩瀚的海边，或峰峦的顶巅观望日出，心中竟有着完全不同的感受，那儿是寂寞的、孤独的、忧郁的，这儿却是热闹的、昂扬的、欢快的。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;站在高楼里面，眺望左右前后的高楼，比起在马路上翘首仰视，要从容镇静和悠闲自在的多。那方方正正伸向空中的大厦，真像古代庄严的城堡，而在它旁边矗立着多少高楼，却像挺拔的峭岩、圆圆的宝塔、漂亮的戏台，或者是启碇(ding)远航的轮船。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我曾有多少回踯(zhi)躅(zhu)于北京的大街小巷，我多么喜爱仰望北京城里蓊(weng)郁和葱茏的树木。那一片嫩绿的杨柳，使我想起青春的光泽，那伸向半空的榆树，和覆盖着茵(yin)茵草地的梧桐树，使我想起繁茂的人生；而一簇簇苍翠和浓密的松柏(bai)，却又使我想起沉重和坚韧的日子。可是当我在高楼上俯视大地时，簇拥在一座座大厦的周围着，替它们点缀着色彩的树木，竟变得十分的细小，似乎在观赏盆景里纤(xian)巧的树枝。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在今天飞腾的年代里，高楼大厦像雨后的春笋那样，纷纷冒出了地面。这洋溢着立体感的美景，显示了北京已经成为真正的大都市。</p>
-<h1 id="四十八、十渡游趣"><a href="#四十八、十渡游趣" class="headerlink" title="四十八、十渡游趣"></a>四十八、十渡游趣</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;仲(zhong 四声)夏，朋友相邀游十渡。在城里住久了，一旦进入山水之间，竟有一种生命复苏的快感。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下车后，我们舍弃了大陆，挑选了一条半隐半现在庄稼地里的小径，弯弯绕绕地来到了十渡渡口。夕阳下的拒马河慷慨的撒出一片散金碎玉，对我们表示欢迎。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;岸边山崖上刀斧痕犹存的崎岖小道，高低凹凸，虽没有“难于上青天”的险恶，却也有踏空了滚到拒马河洗澡的风险。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;狭窄处只能手扶岩石贴壁而行。当“东坡草堂”几个红漆大字赫然出现在前方岩壁时，一座镶嵌在岩壁间的石砌茅草屋同时跃进眼底。草屋被几级石梯托得高高的，屋下俯瞰着一弯河水，屋前顺山势劈出了一片空地。算是院落吧！右侧有一小小的蘑菇形的凉亭，内设石桌石凳，亭顶褐黄色的茅草像流苏般向下垂写，现实和童话串成了一体。草屋的构思者最精彩的一笔，是设在院落边沿的柴门和篱笆，走近这儿，便有了“花径不曾缘客扫，蓬门今始为君开”的意思。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当我们重登凉亭时，远处的蝙蝠山已在夜色下化为剪影，好像就要展翅扑来。拒马河趁人们看不清它的容貌时豁开了嗓门韵味十足地唱呢！偶有不安分的小鱼儿和青蛙蹦跳成声，像是为了强化这夜曲的节奏。此时，只觉世间惟有水声和我，就连偶尔从远处赶来歇脚的晚风，也悄无声息。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当我渐渐被夜的凝重与深邃所融蚀，一缕新的思绪涌动时，对岸沙滩上燃起了篝火，那鲜亮的火光，使夜色有了躁动感。篝火四周，人影绰(chuo 四声)约，如歌似舞。朋友说，那是北京的大学生们，结伴来到这儿度周末的。遥望那明灭无定的火光，想象着篝火映照的青春年华，也是一种意想不到的乐趣。</p>
-<h1 id="四十九、海滨仲夏夜"><a href="#四十九、海滨仲夏夜" class="headerlink" title="四十九、海滨仲夏夜"></a>四十九、海滨仲夏夜</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夕阳落山不久，西方的天空，还燃烧着一片橘红色的晚霞。大海，也被这霞光染成了红色，而且比天空的景色更要壮观。因为它是活动的，每当一排排波浪涌起的时候，那映照在浪峰上的霞光，又红又亮，简直就像一片片霍霍燃烧着的火焰，闪烁着，消失了。而后面的一排，又闪烁着，滚动着，涌了过来。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天空的霞光渐渐地淡下去了。深红的颜色变成了绯红，绯红又变为浅红。最后，当这一切红光都消失了的时候，那突然显得高而远了的天空，则呈现出一片肃穆的颜色。最早出现的启明星，在这蓝色的天幕上闪烁起来了。它是那么大，那么亮，整个广漠的天幕上只有它在哪里放射着令人注目的光辉，活像一盏悬挂在高空的明灯。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夜色加浓，苍空中的“明灯”越来越多了。而城市各处的真的灯火也次第亮了起来，尤其是围绕在海港周围山坡上的那一片灯光，从半空倒映在乌蓝的海面上，随着波浪，晃动着，闪烁着，像一串流动着的珍珠，和那一片片密布在苍穹里的星斗互相辉映，煞是好看。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在这优美的夜色中，我踏着软绵绵的沙滩，沿着海边，慢慢地向前走去，海水，轻轻地抚摸着细软的沙滩，发出温柔的刷刷声，晚来的海风，清新而又凉爽。我的心里，有着说不出的兴奋和愉快。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夜风轻飘飘地吹拂着，空气中飘荡着一种大海和田禾相混合的香味，柔软的沙滩上还残留着白天太阳炙晒的余温。那些在各个工作岗位上劳动了一天的人们，三三两两地来到这软绵绵的沙滩上，他们浴着凉爽的海风，望着那缀满了星星的夜空，尽情地说笑；尽情地休憩(qi 第四声)。</p>
-<h1 id="五十、济南的冬天"><a href="#五十、济南的冬天" class="headerlink" title="五十、济南的冬天"></a>五十、济南的冬天</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对于一个在北平住惯的人，像我，冬天要不是不刮风，便觉得是奇迹；济南的冬天是没有风声的。对于一个刚由伦敦回来的人，像我，冬天要能看得见日光，便觉得是怪事；济南的冬天是响晴的。自然，在热带的地方，日光是永远那么毒，响亮的天气，反有点叫人害怕。可是，在北中国的冬天，而能有温晴的天气，济南真得算是个宝地。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设若单单是有阳光，那也算不了出奇。请闭上眼睛想，一个老城，有山有水，全在天底下晒着阳光，暖和安适的睡着，只等春风来把它们唤醒，这是不是理想的境界？小山整把济南围个圈儿，只在北边缺着点口儿。这一圈小山在冬天特别可爱，好像是把济南放在一个小摇篮里，他们安静不动地低声地说：“你们放心吧，这儿准保暖和。”真的，济南的人们在冬天是面上含笑的。他们一看那些小山，心中便觉得有了着(zhuo 第二声)落，有了依靠。他们由天上看到山上，便不知不觉地想起：“明天也许就是春天了吧？这样的温暖，今天夜里山草也许就绿起来了吧？”就是这点幻想不能一时实现，他们也不着急，因为这样慈善的冬天，干什么还希望别的呢@</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最妙的是下点小雪呀。看吧，山上的矮松越发的青黑，树尖上顶着一髻(ji)儿百花，好像日本看护妇。山尖全白了，给蓝天镶上一道银边。山坡上，有的地方雪厚点，有的地方草色还露着；这样，一道儿白，一道儿暗黄，给山们穿上一件带水纹的花衣；看着看着，这件花衣好像被风儿吹动，叫你希望看见一点更美的山的肌肤。等到快日落的时候，微黄的阳光斜射在山腰上，那点薄雪好像忽然害羞，微微露(lou)出点粉色。就是下点小雪吧，济南是受不住大雪的，那些小山太秀气。</p>
-]]></content>
   </entry>
 </search>
